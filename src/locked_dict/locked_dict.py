@@ -6,6 +6,8 @@ allow thread safe and mutable iterations through a lock. """
 __all__ = ['LockedDict']
 
 import itertools
+import threading
+
 
 # Use basestring name lookup test to adapt to python version
 try:
@@ -47,7 +49,7 @@ class LockedDict(dict):
         self._lock.acquire()
         return self
 
-    def __exit__(self, type, value, traceback):
+    def __exit__(self, exc_type, exc_val, exc_tb):
         """Context manager exit the block, release the lock. """
         self._lock.release()
 
