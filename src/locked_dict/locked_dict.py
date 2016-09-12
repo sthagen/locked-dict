@@ -3,6 +3,8 @@
 """This module provides a single class derived from dict to
 allow thread safe and mutable iterations through a lock. """
 
+__all__ = ['LockedDict']
+
 import itertools
 
 # Use basestring name lookup test to adapt to python version

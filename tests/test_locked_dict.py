@@ -31,7 +31,7 @@ def test_locked_dict():
 		return len(key_seq)
 
 	expected = 0
-	d = LockedDict()
+	d = locked_dict.LockedDict()
 	with d as m:
 		m[0] = ['foo']
 		expected += 1
@@ -78,7 +78,7 @@ def test_locked_dict():
 		__ = m.get(-42)
 		assert __ is None
 		if -42 not in m:
-			__ = LockedDict.fromkeys(m.keys(), 'yes')
+			__ = locked_dict.LockedDict.fromkeys(m.keys(), 'yes')
 			bf = dict([(z, 'yes') for z in m.keys()])
 			assert __ == bf
 			assert __ is not bf
