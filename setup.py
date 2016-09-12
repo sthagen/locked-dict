@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 from __future__ import absolute_import
@@ -25,7 +26,7 @@ def read(*names, **kwargs):
 setup(
     name='locked-dict',
     version='0.1.0',
-    license='BSD',
+    license='MIT',
     description='Dict to allow context managed thread safe and mutable iterations through a lock.',
     long_description='%s\n%s' % (
         re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
@@ -49,12 +50,8 @@ setup(
         'Operating System :: Microsoft :: Windows',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: Implementation :: CPython',
-        'Programming Language :: Python :: Implementation :: PyPy',
         # uncomment if you test on these interpreters:
         # 'Programming Language :: Python :: Implementation :: IronPython',
         # 'Programming Language :: Python :: Implementation :: Jython',
