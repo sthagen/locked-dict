@@ -1,12 +1,14 @@
 
-import locked_dict
 import logging
 import pickle
-import pytest
 import random
 import sys
 import threading
 import time
+
+import pytest
+
+import locked_dict
 
 
 @pytest.mark.skip(reason='To be migrated from old school to pytest')
@@ -60,7 +62,7 @@ def test_locked_dict():
     for k, v in d.items():
         logger.debug("{}: {}".format(k, v))
     logger.debug('{} {} {}'.format(
-        id(d), isinstance(d, dict), isinstance(d, LockedDict)))
+        id(d), isinstance(d, dict), isinstance(d, locked_dict.LockedDict)))
     logger.debug(dir(d))
     logger.debug(dir(getattr(d, '_lock')))
 
@@ -97,7 +99,7 @@ def test_locked_dict():
     logger.debug('Entries({:5d}/{:5d})'.format(len(rd), expected))
 
     logger.debug('{} {} {}'.format(
-        id(rd), type(rd), isinstance(rd, (dict, LockedDict))))
+        id(rd), type(rd), isinstance(rd, (dict, locked_dict.LockedDict))))
 
     worker_tasks = random.randint(1, 234)
     worker_count = random.randint(5, 67)
@@ -132,13 +134,14 @@ def test_locked_dict():
 def test_main():
     assert locked_dict  # use your library here
 
+
 @pytest.mark.skip(reason='Needs fixing of env and folders')
 def test_stage():
     expected = 0
     d = locked_dict.LockedDict()
     assert len(d) == expected
     assert bool(d) is False
-    assert not d == True
+    assert d is not True
     assert hasattr(d, '_lock')
 
     empty_d = {}
@@ -150,7 +153,7 @@ def test_stage():
     with d as m:
         assert len(m) == expected
         assert bool(m) is False
-        assert not m == True
+        assert m is not True
         assert hasattr(m, '_lock')
         assert m != plain_old_d
         assert m == empty_d
@@ -159,7 +162,7 @@ def test_stage():
         expected += 1
         assert len(m) == expected
         assert bool(m) is True
-        assert not m == False
+        assert m is not False
         assert m != plain_old_d
         assert m != empty_d
 
@@ -167,7 +170,7 @@ def test_stage():
         expected -= 1
         assert len(m) == expected
         assert bool(m) is False
-        assert not m == True
+        assert m is not True
         assert m != plain_old_d
         assert m == empty_d
 
@@ -182,6 +185,6 @@ def test_stage():
         expected += 1
         assert len(m) == expected
         assert bool(m) is True
-        assert not m == False
+        assert m is not False
         assert m != plain_old_d
         assert m != empty_d

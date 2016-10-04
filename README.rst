@@ -34,7 +34,7 @@ Overview
 
 .. |coveralls| image:: https://coveralls.io/repos/sdrees/python-locked_dict/badge.svg?branch=master&service=github
     :alt: Coverage Status
-    :target: https://coveralls.io/r/sdrees/python-locked_dict
+    :target: https://coveralls.io/github/sdrees/python-locked_dict
 
 .. |codecov| image:: https://codecov.io/github/sdrees/python-locked_dict/coverage.svg?branch=master
     :alt: Coverage Status
