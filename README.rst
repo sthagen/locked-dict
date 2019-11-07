@@ -20,36 +20,36 @@ Overview
     :target: https://readthedocs.org/projects/python-locked_dict
     :alt: Documentation Status
 
-.. |travis| image:: https://travis-ci.org/sdrees/python-locked_dict.svg?branch=master
+.. |travis| image:: https://travis-ci.org/sthagen/python-locked_dict.svg?branch=master
     :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/sdrees/python-locked_dict
+    :target: https://travis-ci.org/sthagen/python-locked_dict
 
-.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/sdrees/python-locked_dict?branch=master&svg=true
+.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/sthagen/python-locked_dict?branch=master&svg=true
     :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/sdrees/python-locked_dict
+    :target: https://ci.appveyor.com/project/sthagen/python-locked_dict
 
-.. |requires| image:: https://requires.io/github/sdrees/python-locked_dict/requirements.svg?branch=master
+.. |requires| image:: https://requires.io/github/sthagen/python-locked_dict/requirements.svg?branch=master
     :alt: Requirements Status
-    :target: https://requires.io/github/sdrees/python-locked_dict/requirements/?branch=master
+    :target: https://requires.io/github/sthagen/python-locked_dict/requirements/?branch=master
 
-.. |coveralls| image:: https://coveralls.io/repos/sdrees/python-locked_dict/badge.svg?branch=master&service=github
+.. |coveralls| image:: https://coveralls.io/repos/sthagen/python-locked_dict/badge.svg?branch=master&service=github
     :alt: Coverage Status
-    :target: https://coveralls.io/github/sdrees/python-locked_dict
+    :target: https://coveralls.io/github/sthagen/python-locked_dict
 
-.. |codecov| image:: https://codecov.io/github/sdrees/python-locked_dict/coverage.svg?branch=master
+.. |codecov| image:: https://codecov.io/github/sthagen/python-locked_dict/coverage.svg?branch=master
     :alt: Coverage Status
-    :target: https://codecov.io/github/sdrees/python-locked_dict
+    :target: https://codecov.io/github/sthagen/python-locked_dict
 
-.. |landscape| image:: https://landscape.io/github/sdrees/python-locked_dict/master/landscape.svg?style=flat
-    :target: https://landscape.io/github/sdrees/python-locked_dict/master
+.. |landscape| image:: https://landscape.io/github/sthagen/python-locked_dict/master/landscape.svg?style=flat
+    :target: https://landscape.io/github/sthagen/python-locked_dict/master
     :alt: Code Quality Status
 
 .. |codacy| image:: https://img.shields.io/codacy/REPLACE_WITH_PROJECT_ID.svg?style=flat
-    :target: https://www.codacy.com/app/sdrees/python-locked_dict
+    :target: https://www.codacy.com/app/sthagen/python-locked_dict
     :alt: Codacy Code Quality Status
 
-.. |codeclimate| image:: https://codeclimate.com/github/sdrees/python-locked_dict/badges/gpa.svg
-   :target: https://codeclimate.com/github/sdrees/python-locked_dict
+.. |codeclimate| image:: https://codeclimate.com/github/sthagen/python-locked_dict/badges/gpa.svg
+   :target: https://codeclimate.com/github/sthagen/python-locked_dict
    :alt: CodeClimate Quality Status
 
 .. |version| image:: https://img.shields.io/pypi/v/locked-dict.svg?style=flat

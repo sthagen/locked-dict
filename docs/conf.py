@@ -23,22 +23,22 @@ if os.getenv('SPELLCHECK'):
 source_suffix = '.rst'
 master_doc = 'index'
 project = 'locked_dict'
-year = '2016'
+year = '2019'
 author = 'Stefan Hagen'
 copyright = '{0}, {1}'.format(year, author)
-version = release = '0.1.0'
+version = release = '0.1.1'
 
 pygments_style = 'trac'
 templates_path = ['.']
 extlinks = {
-    'issue': ('https://github.com/sdrees/python-locked_dict/issues/%s', '#'),
-    'pr': ('https://github.com/sdrees/python-locked_dict/pull/%s', 'PR #'),
+    'issue': ('https://github.com/sthagen/python-locked_dict/issues/%s', '#'),
+    'pr': ('https://github.com/sthagen/python-locked_dict/pull/%s', 'PR #'),
 }
 import sphinx_py3doc_enhanced_theme
 html_theme = "sphinx_py3doc_enhanced_theme"
 html_theme_path = [sphinx_py3doc_enhanced_theme.get_html_theme_path()]
 html_theme_options = {
-    'githuburl': 'https://github.com/sdrees/python-locked_dict/'
+    'githuburl': 'https://github.com/sthagen/python-locked_dict/'
 }
 
 html_use_smartypants = True

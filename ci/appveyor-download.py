@@ -95,7 +95,7 @@ def unpack_zipfile(filename):
 parser = argparse.ArgumentParser(description='Download artifacts from AppVeyor.')
 parser.add_argument('--id',
                     metavar='PROJECT_ID',
-                    default='sdrees/python-locked_dict',
+                    default='sthagen/python-locked_dict',
                     help='Project ID in AppVeyor.')
 parser.add_argument('build',
                     nargs='?',
