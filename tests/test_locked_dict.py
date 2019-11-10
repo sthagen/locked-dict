@@ -8,10 +8,9 @@ import time
 
 import pytest
 
-import locked_dict
+import locked_dict.locked_dict as locked_dict
 
 
-@pytest.mark.skip(reason='To be migrated from old school to pytest')
 def test_locked_dict():
     """Simple test driver. Switch to debug logging, if any argument given."""
 
@@ -135,18 +134,23 @@ def test_main():
     assert locked_dict  # use your library here
 
 
-@pytest.mark.skip(reason='Needs fixing of env and folders')
-def test_stage():
+def test_lock_empty():
     expected = 0
     d = locked_dict.LockedDict()
     assert len(d) == expected
     assert bool(d) is False
     assert d is not True
     assert hasattr(d, '_lock')
-
     empty_d = {}
     assert d == empty_d
+    d.setdefault('not_there_yet', []).append(42)
+    assert d['not_there_yet'] == [42]
 
+
+def test_lock_with():
+    expected = 0
+    d = locked_dict.LockedDict()
+    empty_d = {}
     plain_old_d = {999: 'plain old dict', 12345: 54321}
     assert d != plain_old_d
 
@@ -175,7 +179,7 @@ def test_stage():
         assert m == empty_d
 
         with pytest.raises(KeyError):
-            # noinspection PyUnusedLocal
+            # noinspection PyUnusedLocal                                                                                                                                 
             __ = m.popitem()
 
         with pytest.raises(KeyError):
@@ -188,3 +192,9 @@ def test_stage():
         assert m is not False
         assert m != plain_old_d
         assert m != empty_d
+
+        d_foo_ser = pickle.dumps(m[0])
+        del m[0]
+        assert m.get(0) is None
+        m[0] = pickle.loads(d_foo_ser)
+        assert m[0] == 'foo'

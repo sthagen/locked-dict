@@ -10,14 +10,13 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |travis| |appveyor| |requires|
-        | |coveralls| |codecov|
-        | |landscape| |codacy| |codeclimate|
+      - | |travis| |appveyor| |requires| |coveralls|
+        | |scrutinizer| |codeclimate|
     * - package
       - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
 
 .. |docs| image:: https://readthedocs.org/projects/python-locked_dict/badge/?style=flat
-    :target: https://readthedocs.org/projects/python-locked_dict
+    :target: https://readthedocs.org/projects/python-locked-dict/
     :alt: Documentation Status
 
 .. |travis| image:: https://travis-ci.org/sthagen/python-locked_dict.svg?branch=master
@@ -40,44 +39,40 @@ Overview
     :alt: Coverage Status
     :target: https://codecov.io/github/sthagen/python-locked_dict
 
-.. |landscape| image:: https://landscape.io/github/sthagen/python-locked_dict/master/landscape.svg?style=flat
-    :target: https://landscape.io/github/sthagen/python-locked_dict/master
-    :alt: Code Quality Status
-
-.. |codacy| image:: https://img.shields.io/codacy/REPLACE_WITH_PROJECT_ID.svg?style=flat
-    :target: https://www.codacy.com/app/sthagen/python-locked_dict
-    :alt: Codacy Code Quality Status
-
 .. |codeclimate| image:: https://codeclimate.com/github/sthagen/python-locked_dict/badges/gpa.svg
    :target: https://codeclimate.com/github/sthagen/python-locked_dict
    :alt: CodeClimate Quality Status
 
 .. |version| image:: https://img.shields.io/pypi/v/locked-dict.svg?style=flat
     :alt: PyPI Package latest release
-    :target: https://pypi.python.org/pypi/locked-dict
+    :target: https://pypi.org/project/locked-dict/
 
 .. |downloads| image:: https://img.shields.io/pypi/dm/locked-dict.svg?style=flat
     :alt: PyPI Package monthly downloads
-    :target: https://pypi.python.org/pypi/locked-dict
+    :target: https://pypi.org/project/locked-dict/
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/locked-dict.svg?style=flat
     :alt: PyPI Wheel
-    :target: https://pypi.python.org/pypi/locked-dict
+    :target: https://pypi.org/project/locked-dict/
 
 .. |supported-versions| image:: https://img.shields.io/pypi/pyversions/locked-dict.svg?style=flat
     :alt: Supported versions
-    :target: https://pypi.python.org/pypi/locked-dict
+    :target: https://pypi.org/project/locked-dict/
 
 .. |supported-implementations| image:: https://img.shields.io/pypi/implementation/locked-dict.svg?style=flat
     :alt: Supported implementations
-    :target: https://pypi.python.org/pypi/locked-dict
+    :target: https://pypi.org/project/locked-dict/
+
+.. |scrutinizer| image:: https://img.shields.io/scrutinizer/g/sthagen/python-locked_dict/master.svg?style=flat
+    :alt: Scrutinizer Status
+    :target: https://scrutinizer-ci.com/g/sthagen/python-locked_dict/
 
 
 .. end-badges
 
 Dict to allow context managed thread safe and mutable iterations through a lock.
 
-* Free software: BSD license
+* Free software: MIT license
 
 Installation
 ============
@@ -89,7 +84,7 @@ Installation
 Documentation
 =============
 
-https://python-locked_dict.readthedocs.io/
+https://python-locked-dict.readthedocs.io/en/latest/
 
 Development
 ===========
