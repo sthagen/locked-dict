@@ -70,7 +70,7 @@ Overview
 
 .. end-badges
 
-Dict to allow context managed thread safe and mutable iterations through a lock.
+Implementation of dict supporting context managed thread safe and mutable iterations through a lock.
 
 * Free software: MIT license
 
