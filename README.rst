@@ -79,7 +79,11 @@ Installation
 
 ::
 
-    pip install locked-dict
+    pipx install locked-dict
+
+or::
+
+    python -m pip install locked-dict
 
 Documentation
 =============
