@@ -131,7 +131,7 @@ def test_locked_dict():
 
 
 def test_main():
-    assert locked_dict  # use your library here
+    assert locked_dict
 
 
 def test_lock_empty():
