@@ -10,7 +10,7 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |travis| |appveyor| |requires| |coveralls|
+      - | |requires| |coveralls|
         | |scrutinizer| |codeclimate|
     * - package
       - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
@@ -18,14 +18,6 @@ Overview
 .. |docs| image:: https://readthedocs.org/projects/python-locked_dict/badge/?style=flat
     :target: https://readthedocs.org/projects/python-locked-dict/
     :alt: Documentation Status
-
-.. |travis| image:: https://travis-ci.org/sthagen/python-locked_dict.svg?branch=master
-    :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/sthagen/python-locked_dict
-
-.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/sthagen/python-locked_dict?branch=master&svg=true
-    :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/sthagen/python-locked_dict
 
 .. |requires| image:: https://requires.io/github/sthagen/python-locked_dict/requirements.svg?branch=master
     :alt: Requirements Status
