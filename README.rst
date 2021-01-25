@@ -10,7 +10,7 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |requires| |coveralls|
+      - | |coveralls|
         | |scrutinizer| |codeclimate|
     * - package
       - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
@@ -18,10 +18,6 @@ Overview
 .. |docs| image:: https://readthedocs.org/projects/python-locked_dict/badge/?style=flat
     :target: https://readthedocs.org/projects/python-locked-dict/
     :alt: Documentation Status
-
-.. |requires| image:: https://requires.io/github/sthagen/python-locked_dict/requirements.svg?branch=master
-    :alt: Requirements Status
-    :target: https://requires.io/github/sthagen/python-locked_dict/requirements/?branch=master
 
 .. |coveralls| image:: https://coveralls.io/repos/sthagen/python-locked_dict/badge.svg?branch=master&service=github
     :alt: Coverage Status
