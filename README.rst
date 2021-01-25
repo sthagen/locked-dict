@@ -10,8 +10,7 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |coveralls|
-        | |scrutinizer| |codeclimate|
+      - | |coveralls| |scrutinizer| |codeclimate|
     * - package
       - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
 
