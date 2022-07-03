@@ -35,9 +35,9 @@ setup(
     author='Stefan Hagen',
     author_email='stefan@hagen.link',
     url='https://github.com/sthagen/python-locked_dict',
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
-    py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
+    packages=find_packages(''),
+    package_dir={'': ''},
+    py_modules=[splitext(basename(path))[0] for path in glob('./*.py')],
     include_package_data=True,
     zip_safe=False,
     classifiers=[
