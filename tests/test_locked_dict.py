@@ -1,4 +1,3 @@
-
 import logging
 import pickle
 import random
@@ -27,7 +26,7 @@ def test_locked_dict():
         for key in key_seq:
             shared_map[key] = {threading.current_thread().name: key}
             logger.debug('{} {}'.format(key, shared_map[key]))
-            pause = float(random.randint(1, 5)) / 1000.
+            pause = float(random.randint(1, 5)) / 1000.0
             logger.debug('sleeping %02.3f' % (pause,))
             time.sleep(pause)
 
@@ -60,8 +59,7 @@ def test_locked_dict():
 
     for k, v in d.items():
         logger.debug("{}: {}".format(k, v))
-    logger.debug('{} {} {}'.format(
-        id(d), isinstance(d, dict), isinstance(d, locked_dict.LockedDict)))
+    logger.debug('{} {} {}'.format(id(d), isinstance(d, dict), isinstance(d, locked_dict.LockedDict)))
     logger.debug(dir(d))
     logger.debug(dir(getattr(d, '_lock')))
 
@@ -97,17 +95,14 @@ def test_locked_dict():
 
     logger.debug('Entries({:5d}/{:5d})'.format(len(rd), expected))
 
-    logger.debug('{} {} {}'.format(
-        id(rd), type(rd), isinstance(rd, (dict, locked_dict.LockedDict))))
+    logger.debug('{} {} {}'.format(id(rd), type(rd), isinstance(rd, (dict, locked_dict.LockedDict))))
 
     worker_tasks = random.randint(1, 234)
     worker_count = random.randint(5, 67)
-    logger.debug("Starting {} workers on {} tasks each ..."
-                 "".format(worker_count, worker_tasks))
+    logger.debug("Starting {} workers on {} tasks each ..." "".format(worker_count, worker_tasks))
     expected += worker_count * worker_tasks
     for i in range(43, 43 + worker_count * worker_tasks, worker_tasks):
-        t = threading.Thread(
-            target=worker, args=(range(i, i + worker_tasks), rd))
+        t = threading.Thread(target=worker, args=(range(i, i + worker_tasks), rd))
         t.daemon = True
         t.start()
 
@@ -124,10 +119,16 @@ def test_locked_dict():
     logger.info(
         'WorkersTasks({:2d}:{:3d}).Entries({:5d}/{:5d}); SizeBytes({:6d})'
         ' - with Python({}); LatencySecs({:0.3f})'
-        ''.format(worker_count, worker_tasks, len(rd), expected,
-                  sys.getsizeof(rd),
-                  ','.join(["{:2d}".format(z) for z in sys.version_info[:3]]),
-                  round(time.time() - _start, 3)))
+        ''.format(
+            worker_count,
+            worker_tasks,
+            len(rd),
+            expected,
+            sys.getsizeof(rd),
+            ','.join(["{:2d}".format(z) for z in sys.version_info[:3]]),
+            round(time.time() - _start, 3),
+        )
+    )
 
 
 def test_main():
