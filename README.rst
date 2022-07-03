@@ -9,26 +9,12 @@ Overview
 
     * - docs
       - |docs|
-    * - tests
-      - | |coveralls| |scrutinizer| |codeclimate|
     * - package
       - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
 
 .. |docs| image:: https://readthedocs.org/projects/python-locked_dict/badge/?style=flat
     :target: https://readthedocs.org/projects/python-locked-dict/
     :alt: Documentation Status
-
-.. |coveralls| image:: https://coveralls.io/repos/sthagen/python-locked_dict/badge.svg?branch=master&service=github
-    :alt: Coverage Status
-    :target: https://coveralls.io/github/sthagen/python-locked_dict
-
-.. |codecov| image:: https://codecov.io/github/sthagen/python-locked_dict/coverage.svg?branch=master
-    :alt: Coverage Status
-    :target: https://codecov.io/github/sthagen/python-locked_dict
-
-.. |codeclimate| image:: https://codeclimate.com/github/sthagen/python-locked_dict/badges/gpa.svg
-   :target: https://codeclimate.com/github/sthagen/python-locked_dict
-   :alt: CodeClimate Quality Status
 
 .. |version| image:: https://img.shields.io/pypi/v/locked-dict.svg?style=flat
     :alt: PyPI Package latest release
