@@ -66,6 +66,6 @@ docs/_build
 # local artifacts
 *~
 .idea/
+.python-version
 .vscode/
 local_*
-
