@@ -51,8 +51,8 @@ output/*/index.html
 # Sphinx
 docs/_build
 
+# gistoric additions
 .DS_Store
-*~
 .*.sw[po]
 .build
 .ve
@@ -62,3 +62,10 @@ docs/_build
 .bootstrap
 .appveyor.token
 *.bak
+
+# local artifacts
+*~
+.idea/
+.vscode/
+local_*
+
