@@ -25,7 +25,7 @@ def test_locked_dict():
 
     def worker(key_seq, shared_map):
         for key in key_seq:
-            shared_map[key] = {threading.currentThread().getName(): key}
+            shared_map[key] = {threading.current_thread().name: key}
             logger.debug('{} {}'.format(key, shared_map[key]))
             pause = float(random.randint(1, 5)) / 1000.
             logger.debug('sleeping %02.3f' % (pause,))
@@ -108,14 +108,14 @@ def test_locked_dict():
     for i in range(43, 43 + worker_count * worker_tasks, worker_tasks):
         t = threading.Thread(
             target=worker, args=(range(i, i + worker_tasks), rd))
-        t.setDaemon(True)
+        t.daemon = True
         t.start()
 
-    main_thread = threading.currentThread()
+    main_thread = threading.current_thread()
     for t in threading.enumerate():
         if t is main_thread:
             continue
-        logger.debug('joining %s' % (t.getName(),))
+        logger.debug('joining %s' % (t.name,))
         t.join()
 
     for k, v in rd.items():
@@ -179,7 +179,7 @@ def test_lock_with():
         assert m == empty_d
 
         with pytest.raises(KeyError):
-            # noinspection PyUnusedLocal                                                                                                                                 
+            # noinspection PyUnusedLocal
             __ = m.popitem()
 
         with pytest.raises(KeyError):
