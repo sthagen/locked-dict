@@ -2,18 +2,18 @@ SHELL = /bin/bash
 package = shagen/locked-dict
 
 .DEFAULT_GOAL := all
-isort = isort locked_dict tests
-black = black -S -l 120 --target-version py310 locked_dict tests
+isort = isort locked_dict test
+black = black -S -l 120 --target-version py310 locked_dict test
 
 .PHONY: install
 install:
 	pip install -U pip wheel
-	pip install -r tests/requirements.txt
+	pip install -r test/requirements.txt
 	pip install -U .
 
 .PHONY: install-all
 install-all: install
-	pip install -r tests/requirements-dev.txt
+	pip install -r test/requirements-dev.txt
 
 .PHONY: format
 format:
@@ -22,13 +22,13 @@ format:
 
 .PHONY: init
 init:
-	pip install -r tests/requirements.txt
-	pip install -r tests/requirements-dev.txt
+	pip install -r test/requirements.txt
+	pip install -r test/requirements-dev.txt
 
 .PHONY: lint
 lint:
 	python setup.py check -ms
-	flake8 locked_dict/ tests/
+	flake8 locked_dict/ test/
 	$(isort) --check-only --df
 	$(black) --check --diff
 
@@ -38,7 +38,7 @@ mypy:
 
 .PHONY: test
 test: clean
-	pytest --asyncio-mode=strict --cov=locked_Dict --cov-report term-missing:skip-covered --cov-branch --log-format="%(levelname)s %(message)s"
+	pytest --asyncio-mode=strict --cov=locked_dict --cov-report term-missing:skip-covered --cov-branch --log-format="%(levelname)s %(message)s"
 
 .PHONY: testcov
 testcov: test
