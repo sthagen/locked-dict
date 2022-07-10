@@ -1,4 +1,5 @@
 coverage==6.4.1
+faker==13.15.0
 hypothesis==6.50.1
 pygments==2.12.0
 pyperf==2.3.1
