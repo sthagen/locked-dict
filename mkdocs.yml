@@ -26,18 +26,16 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/sthagen/laskea
+      link: https://github.com/sthagen/locked-dict
     - icon: fontawesome/brands/python
-      link: https://pypi.org/project/laskea
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/shagen/laskea
+      link: https://pypi.org/project/locked-dict
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/shage
 
-copyright: Copyright &copy; 2021 Stefan Hagen under the MIT license
+copyright: Copyright &copy; 2022 Stefan Hagen under the MIT license
 
-repo_name: sthagen/laskea
-repo_url: https://github.com/sthagen/laskea
+repo_name: sthagen/locked-dict
+repo_url: https://github.com/sthagen/locked-dict
 edit_uri: ""
 
 plugins:
