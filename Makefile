@@ -34,7 +34,7 @@ lint:
 
 .PHONY: mypy
 mypy:
-	mypy locked_dict
+	@echo Skipping mypy locked_dict
 
 .PHONY: test
 test: clean
