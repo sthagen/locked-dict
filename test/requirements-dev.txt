@@ -22,6 +22,7 @@ pipdeptree==2.2.1
 prospector==1.7.7
 py-sbom-components==0.1.2
 pycodestyle==2.8.0
+pydocstyle==6.1.1
 pyflakes==2.4.0
 pyinstrument==4.2.0
 setuptools==63.2.0
