@@ -1,5 +1,9 @@
 # Changes
 
+## 2022.7.24
+
+* Fixed doc and source repo links
+
 ## 2022.7.23
 
 * Bumped dependecies for development and test
