@@ -15,6 +15,7 @@ pytest-cov==3.0.0
 pytest-flake8==1.1.1
 pytest-harvest==1.10.4
 pytest-mock==3.8.2
+pytest-pydocstyle==2.3.0
 pytest-race==0.2.0
 pytest-reporter==0.5.2
 pytest-shell==0.3.2
