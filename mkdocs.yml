@@ -1,0 +1,61 @@
+site_name: "Locked Dict"
+site_description: "Dict to allow context managed thread safe and mutable iterations through a lock."
+
+theme:
+  name: 'material'
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sthagen/laskea
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/laskea
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/shagen/laskea
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/shage
+
+copyright: Copyright &copy; 2021 Stefan Hagen under the MIT license
+
+repo_name: sthagen/laskea
+repo_url: https://github.com/sthagen/laskea
+edit_uri: ""
+
+plugins:
+  - search
+  - mkdocstrings
+
+nav:
+  - Introduction: 'index.md'
+  - Install: 'install.md'
+  - Usage: 'usage.md'
+  - API: 'api.md'
+  - Changes: 'changes.md'
+  - Contribute: 'contribute.md'
+
+markdown_extensions:
+  - mkautodoc
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_javascript:
