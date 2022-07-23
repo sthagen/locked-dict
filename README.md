@@ -10,6 +10,15 @@ Implementation of dict supporting context managed thread safe and mutable iterat
 [![supported-versions](https://img.shields.io/pypi/pyversions/locked-dict.svg?style=flat)](https://pypi.python.org/pypi/locked-dict/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/locked-dict.svg?style=flat)](https://pypi.python.org/pypi/locked-dict/)
 
+## Documentation
+
+User and developer [documentation of locked-dict](https://codes.dilettant.life/docs/locked-dict).
+
+## Primary Source repository
+
+The primary source repository of [locked-dict is at sourcehut](https://git.sr.ht/~sthagen/locked-dict)
+a collection of tools useful for software development.
+
 # Status
 
 Production/stable.
