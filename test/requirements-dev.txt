@@ -7,7 +7,7 @@ cyclonedx-bom==3.5.0
 filprofiler==2022.7.0
 flake8==4.0.1
 flake8-quotes==3.3.1
-graphviz==0.20
+graphviz==0.20.1
 guppy3==3.1.2
 ipdb==0.13.9
 isort==5.10.1
