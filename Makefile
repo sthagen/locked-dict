@@ -54,12 +54,7 @@ clean:
 	@rm -f `find . -type f -name '*.py[co]' `
 	@rm -f `find . -type f -name '*~' `
 	@rm -f `find . -type f -name '.*~' `
-	@rm -rf .cache
-	@rm -rf htmlcov
-	@rm -rf *.egg-info
-	@rm -f .coverage
-	@rm -f .coverage.*
-	@rm -rf build
-	@rm -f *.log
+	@rm -rf .cache htmlcov *.egg-info build dist/*
+	@rm -f .coverage .coverage.* *.log
 	python setup.py clean
 	@rm -fr site/*
