@@ -62,4 +62,4 @@ clean:
 	@rm -rf build
 	@rm -f *.log
 	python setup.py clean
-	@git status
+	@rm -fr site/*
