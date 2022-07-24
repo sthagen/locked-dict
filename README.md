@@ -14,6 +14,10 @@ Implementation of dict supporting context managed thread safe and mutable iterat
 
 User and developer [documentation of locked-dict](https://codes.dilettant.life/docs/locked-dict).
 
+## Bug Tracker
+
+Feature requests and bug reports are bested entered in the [todos of locked-dict](https://todo.sr.ht/~sthagen/locked-dict).
+
 ## Primary Source repository
 
 The primary source repository of [locked-dict is at sourcehut](https://git.sr.ht/~sthagen/locked-dict)
