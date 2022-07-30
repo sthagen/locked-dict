@@ -25,8 +25,6 @@ theme:
 extra:
   generator: false
   social:
-    - icon: fontawesome/brands/github
-      link: https://git.sr.ht/~sthagen/locked-dict
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/locked-dict
     - icon: fontawesome/brands/linkedin
@@ -34,7 +32,7 @@ extra:
 
 copyright: Copyright &copy; 2022 Stefan Hagen under the MIT license
 
-repo_name: sthagen/locked-dict
+repo_name: ~sthagen/locked-dict
 repo_url: https://git.sr.ht/~sthagen/locked-dict
 edit_uri: ""
 
