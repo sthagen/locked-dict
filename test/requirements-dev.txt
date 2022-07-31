@@ -19,7 +19,7 @@ mypy==0.971
 packaging==21.3
 pip-licenses==3.5.4
 pipdeptree==2.2.1
-prospector==1.7.7
+# prospector==1.7.7
 py-sbom-components==0.1.2
 pycodestyle==2.9.0
 pydocstyle==6.1.1
