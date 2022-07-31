@@ -46,6 +46,7 @@ nav:
   - Usage: 'usage.md'
   - API: 'api.md'
   - Changes: 'changes.md'
+  - Test Coverage: https://codes.dilettant.life/coverage/locked-dict/
   - Contribute: 'contribute.md'
 
 markdown_extensions:
