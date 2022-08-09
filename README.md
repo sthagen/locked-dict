@@ -16,7 +16,7 @@ User and developer [documentation of locked-dict](https://codes.dilettant.life/d
 
 ## Bug Tracker
 
-Feature requests and bug reports are bested entered in the [todos of locked-dict](https://todo.sr.ht/~sthagen/locked-dict).
+Feature requests and bug reports are best entered in the [todos of locked-dict](https://todo.sr.ht/~sthagen/locked-dict).
 
 ## Primary Source repository
 
