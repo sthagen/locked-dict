@@ -1,4 +1,4 @@
-coverage==6.4.3
+coverage==6.4.4
 faker==14.0.0
 hypothesis==6.54.3
 pygments==2.13.0
