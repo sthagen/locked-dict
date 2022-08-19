@@ -7,7 +7,7 @@ pytest==7.1.2
 pytest-asyncio==0.19.0
 pytest-benchmark==3.4.1
 pytest-cases==3.6.13
-pytest_check==1.0.5
+pytest-check==1.0.6
 pytest-check-links==0.7.1
 pytest-checkdocs==2.7.1
 pytest_codeblocks==0.16.1
