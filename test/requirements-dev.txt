@@ -27,7 +27,7 @@ py-sbom-components==0.2.1
 pycodestyle==2.9.1
 pydocstyle==6.1.1
 pyflakes==2.5.0
-pyinstrument==4.2.0
+pyinstrument==4.3.0
 pyupgrade==2.37.3
 railroad-diagrams==2.0.4
 setuptools==65.1.1
