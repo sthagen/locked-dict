@@ -30,7 +30,7 @@ pyflakes==2.5.0
 pyinstrument==4.3.0
 pyupgrade==2.37.3
 railroad-diagrams==2.0.4
-setuptools==65.1.1
+setuptools==65.2.0
 setuptools-scm==7.0.5
 twine==4.0.1
 types-Markdown==3.4.1
