@@ -12,7 +12,7 @@ pytest-check==1.0.9
 pytest-check-links==0.7.1
 pytest-checkdocs==2.8.1
 pytest_codeblocks==0.16.1
-pytest-cov==3.0.0
+pytest-cov==4.0.0
 pytest-flake8==1.1.1
 pytest-harvest==1.10.4
 pytest-mock==3.9.0
