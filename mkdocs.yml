@@ -24,6 +24,7 @@ theme:
 
 extra:
   generator: false
+  homepage: https://codes.dilettant.life/docs/
   social:
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/locked-dict
