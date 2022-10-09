@@ -51,9 +51,22 @@ nav:
   - Contribute: 'contribute.md'
 
 markdown_extensions:
-  - mkautodoc
+  - abbr
   - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - tables
+  - toc:
+      permalink: '∞'
+  - mkautodoc
   - pymdownx.highlight
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_javascript:
