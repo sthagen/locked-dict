@@ -10,7 +10,7 @@ pytest-benchmark==3.4.1
 pytest-cases==3.6.13
 pytest-check==1.0.10
 pytest-check-links==0.7.1
-pytest-checkdocs==2.8.1
+pytest-checkdocs==2.9.0
 pytest_codeblocks==0.16.1
 pytest-cov==4.0.0
 pytest-flake8==1.1.1
