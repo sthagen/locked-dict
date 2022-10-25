@@ -31,6 +31,7 @@ pyflakes==2.5.0
 pyinstrument==4.3.0
 pyupgrade==3.1.0
 railroad-diagrams==2.0.4
+# refurb==1.4.0
 setuptools==65.5.0
 setuptools-scm==7.0.5
 twine==4.0.1
@@ -39,5 +40,5 @@ types-PyYAML==6.0.12
 types-first==2.0.5
 types-jmespath==1.0.2
 types-requests==2.28.11.2
-types-setuptools==65.5.0.1
+types-setuptools==65.5.0.2
 types-toml==0.10.8
