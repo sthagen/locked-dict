@@ -3,6 +3,9 @@ site_description: "Dict to allow context managed thread safe and mutable iterati
 
 theme:
   name: 'material'
+  features:
+    - navigation.expand
+    - toc.integrate
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
