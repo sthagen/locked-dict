@@ -32,7 +32,7 @@ pyinstrument==4.4.0
 pyupgrade==3.2.2
 railroad-diagrams==2.0.4
 # refurb==1.4.0
-setuptools==65.6.0
+setuptools==65.6.1
 setuptools-scm==7.0.5
 twine==4.0.1
 types-Markdown==3.4.2.1
