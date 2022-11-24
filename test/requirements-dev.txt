@@ -27,7 +27,7 @@ py-cpuinfo==9.0.0
 # py-sbom-components==0.2.1
 pycodestyle==2.10.0
 pydocstyle==6.1.1
-pyflakes==3.0.0
+pyflakes==3.0.1
 pyinstrument==4.4.0
 pyupgrade==3.2.2
 railroad-diagrams==2.0.4
