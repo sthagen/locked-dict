@@ -30,6 +30,6 @@ pytest-sugar==0.9.6
 pytest-tap==3.3
 pytest-threadleak==0.5.0
 pytest-todo==0.2.1
-pytest-unordered==0.5.1
+pytest-unordered==0.5.2
 pytest-xdist==3.0.2
 robotframework==6.0.1
