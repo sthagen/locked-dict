@@ -36,6 +36,9 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/shage
 
+extra_css:
+  - stylesheets/extra.css
+
 copyright: Copyright &copy; 2022 Stefan Hagen under the MIT license
 
 repo_name: sthagen/locked-dict
