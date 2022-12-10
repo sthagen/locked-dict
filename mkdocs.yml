@@ -3,6 +3,8 @@ site_description: "Dict to allow context managed thread safe and mutable iterati
 
 theme:
   name: 'material'
+  logo: assets/logo.png
+  favicon: images/favicon.ico
   features:
     - navigation.expand
     - toc.integrate
