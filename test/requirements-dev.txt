@@ -8,7 +8,7 @@ cyclonedx-bom==3.10.1
 filprofiler==2022.11.0
 first==2.0.2
 flake8==6.0.0
-flake8-quotes==3.3.1
+flake8-quotes==3.3.2
 graphviz==0.20.1
 guppy3==3.1.2
 icecream==2.1.3
