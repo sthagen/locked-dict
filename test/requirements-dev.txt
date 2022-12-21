@@ -40,7 +40,7 @@ twine==4.0.2
 types-Markdown==3.4.2.1
 types-PyYAML==6.0.12.2
 types-first==2.0.5
-types-jmespath==1.0.2.2
+types-jmespath==1.0.2.3
 types-requests==2.28.11.6
 types-setuptools==65.6.0.2
 types-toml==0.10.8.1
