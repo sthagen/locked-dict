@@ -21,7 +21,7 @@ mkdocstrings==0.19.1
 mypy==0.991
 packaging==21.3
 pip-licenses==4.0.3
-pip-requirements-parser==32.0.0
+pip-requirements-parser==32.0.1
 pipdeptree==2.3.3
 # prospector==1.8.1
 py-cpuinfo==9.0.0
