@@ -1,0 +1,47 @@
+---
+urls:
+  anyio: https://github.com/agronholm/anyio/blob/master/README.rst
+  exceptiongroup: https://github.com/agronholm/exceptiongroup/blob/main/README.rst
+  foran: https://git.sr.ht/~sthagen/foran/tree/default/item/README.md
+  idna: https://github.com/kjd/idna/blob/master/README.rst
+  jsonschema: https://github.com/python-jsonschema/jsonschema/blob/main/README.rst
+  markdown-it-py: https://github.com/executablebooks/markdown-it-py/blob/master/README.md
+  mdformat: https://github.com/executablebooks/mdformat/blob/master/README.md
+  mdit-py-plugins: https://github.com/executablebooks/mdit-py-plugins/blob/master/README.md
+  mdurl: https://github.com/executablebooks/mdurl/blob/master/README.md
+  numcodecs: https://github.com/zarr-developers/numcodecs/blob/main/README.rst
+  pandoc: https://github.com/boisgera/pandoc/blob/master/README.md
+  pyparsing: https://github.com/pyparsing/pyparsing/blob/master/README.rst
+  rtoml: https://github.com/samuelcolvin/rtoml/blob/main/README.md
+  soupsieve: https://github.com/facelessuser/soupsieve/blob/main/README.md
+  starlette: https://github.com/encode/starlette/blob/master/README.md
+  taksonomia: https://git.sr.ht/~sthagen/taksonomia/tree/default/item/README.md
+  tomli: https://github.com/hukkin/tomli/blob/master/README.md
+  typing-extensions: https://github.com/python/typing/blob/master/typing_extensions/README.rst
+authors:
+  aiohttp: '"aiohttp team" <team@aiohttp.org>'
+  aiosignal: '"aiohttp team" <team@aiohttp.org>'
+  exceptiongroup: Alex Grönholm
+  foran: Stefan Hagen
+  frozenlist: '"aiohttp team" <team@aiohttp.org>'
+  idna: Kim Davies
+  lazr.uri: '"LAZR Developers" team'
+  markdown-it-py: Chris Sewell
+  mdformat: Taneli Hukkinen
+  mdit-py-plugins: Chris Sewell
+  mdurl: Taneli Hukkinen
+  msgspec: Jim Crist-Harif
+  numcodecs: Alistair Miles
+  pyparsing: Paul McGuire
+  "scikit-learn": Andreas Mueller
+  scipy: '"SciPy Developers" <scipy-dev@python.org>'
+  soupsieve: Isaac Muse
+  starlette: Tom Christie
+  taksonomia: Stefan Hagen
+  tomli: Taneli Hukkinen
+  tqdm: '"tqdm developers" <python.tqdm@gmail.com>'
+  typing-extensions: The Python Typing Team
+  zarr: Alistair Miles
+descriptions:
+  rtoml: A better TOML library for python implemented in rust.
+  threadpoolctl: "Python helpers to limit the number of threads used in native libraries that handle their own internal threadpool (BLAS and OpenMP implementations)"

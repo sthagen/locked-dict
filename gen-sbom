@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+# Generate SBOM in CycloneDX v1.4 JSON format from requirements
+cyclonedx-bom --format json --requirements --in-file requirements.txt --output - | jq . > sbom.json
+sha256sum sbom.json | cut -f1 -d' ' > sbom.json.sha256
