@@ -37,9 +37,6 @@ Test-Coverage = "https://codes.dilettant.life/coverage/locked-dict"
 include = ["locked_dict"]
 exclude = ["test*"]
 
-[bdist_wheel]
-universal = true
-
 [tool.black]
 line-length = 120
 skip-string-normalization = true
