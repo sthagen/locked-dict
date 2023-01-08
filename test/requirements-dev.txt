@@ -19,7 +19,7 @@ memory-profiler==0.61.0
 mkautodoc==0.2.0
 mkdocstrings==0.19.1
 mypy==0.991
-packaging==22.0
+packaging==23.0
 pip-licenses==4.0.3
 pip-requirements-parser==32.0.1
 pipdeptree==2.3.3
