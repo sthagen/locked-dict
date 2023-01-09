@@ -33,7 +33,7 @@ pyinstrument==4.4.0
 pyupgrade==3.3.1
 railroad-diagrams==2.0.4
 # refurb==1.4.0
-ruff==0.0.215
+ruff==0.0.216
 scalene==1.5.19
 setuptools==65.6.3
 setuptools-scm==7.1.0
