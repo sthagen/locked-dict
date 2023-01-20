@@ -17,7 +17,7 @@ isort==5.11.4
 line-profiler==4.0.2
 memory-profiler==0.61.0
 mkautodoc==0.2.0
-mkdocstrings==0.19.1
+mkdocstrings==0.20.0
 mypy==0.991
 packaging==23.0
 pip-licenses==4.0.3
