@@ -39,7 +39,7 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
-copyright: Copyright &copy; 2022 Stefan Hagen under the MIT license
+copyright: Copyright &copy; 2023 Stefan Hagen under the MIT license
 
 repo_name: sthagen/locked-dict
 repo_url: https://git.sr.ht/~sthagen/locked-dict
