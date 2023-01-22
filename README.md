@@ -4,7 +4,7 @@ Implementation of dict supporting context managed thread safe and mutable iterat
 
 [License: MIT](https://github.com/sthagen/locked-dict/blob/default/LICENSE)
 
-Third party dependencies are documented in the folder [third-party](third-party/README.md).
+Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/locked-dict.svg?style=flat)](https://pypi.python.org/pypi/locked-dict/)
 [![downloads](https://pepy.tech/badge/locked-dict/month)](https://pepy.tech/project/locked-dict)
