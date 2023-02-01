@@ -1,7 +1,7 @@
 Jinja2==3.1.2
 Pympler==1.0.1
 bandit==1.7.4
-black==22.12.0
+black==23.1.0
 bumper==0.1.13
 cogapp==3.3.0
 cyclonedx-bom==3.10.1
