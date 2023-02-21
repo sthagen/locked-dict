@@ -35,7 +35,7 @@ railroad-diagrams==3.0.1
 # refurb==1.4.0
 ruff==0.0.250
 scalene==1.5.19
-setuptools==67.3.3
+setuptools==67.4.0
 setuptools-scm==7.1.0
 twine==4.0.2
 types-Markdown==3.4.2.5
