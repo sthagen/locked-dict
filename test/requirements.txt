@@ -1,5 +1,5 @@
 Faker==17.0.0
-coverage==7.1.0
+coverage==7.2.0
 dirty-equals==0.5.0
 hypothesis==6.68.2
 pygments==2.14.0
