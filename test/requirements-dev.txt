@@ -5,7 +5,7 @@ black==23.1.0
 bumper==0.1.13
 cogapp==3.3.0
 cyclonedx-bom==3.11.0
-filprofiler==2022.11.0
+filprofiler==2023.3.0
 first==2.0.2
 flake8==6.0.0
 flake8-quotes==3.3.2
