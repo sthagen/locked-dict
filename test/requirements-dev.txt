@@ -22,7 +22,7 @@ mypy==1.0.1
 packaging==23.0
 pip-licenses==4.1.0
 pip-requirements-parser==32.0.1
-pipdeptree==2.5.1
+pipdeptree==2.5.2
 # prospector==1.8.1
 py-cpuinfo==9.0.0
 # py-sbom-components==0.2.1
