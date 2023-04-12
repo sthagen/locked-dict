@@ -21,7 +21,7 @@ mkdocstrings==0.21.2
 mypy==1.2.0
 objgraph==3.5.0
 packaging==23.0
-pip-licenses==4.1.0
+pip-licenses==4.2.0
 pip-requirements-parser==32.0.1
 pipdeptree==2.7.0
 # prospector==1.8.1
