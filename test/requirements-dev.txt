@@ -24,6 +24,7 @@ objgraph==3.5.0
 packaging==23.1
 pip-licenses==4.2.0
 pip-requirements-parser==32.0.1
+pip-tools==6.13.0
 pipdeptree==2.7.0
 # prospector==1.8.1
 py-cpuinfo==9.0.0
