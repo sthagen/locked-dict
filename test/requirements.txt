@@ -1,7 +1,7 @@
 Faker==18.5.1
 coverage==7.2.3
 dirty-equals==0.5.0
-hypothesis==6.72.2
+hypothesis==6.72.3
 nox==2023.4.22
 pygments==2.15.1
 pyperf==2.6.0
