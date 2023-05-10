@@ -42,7 +42,7 @@ scalene==1.5.21.2
 setuptools==67.7.2
 setuptools-scm==7.1.0
 twine==4.0.2
-types-Markdown==3.4.2.8
+types-Markdown==3.4.2.9
 types-PyYAML==6.0.12.9
 types-first==2.0.5.1
 types-jmespath==1.0.2.6
