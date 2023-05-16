@@ -1,4 +1,4 @@
-Faker==18.7.0
+Faker==18.9.0
 coverage==7.2.5
 dirty-equals==0.6.0
 hypothesis==6.75.3
