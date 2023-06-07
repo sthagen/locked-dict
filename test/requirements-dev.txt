@@ -38,7 +38,7 @@ pyupgrade==3.4.0
 railroad-diagrams==3.0.1
 # refurb==1.4.0
 ruff==0.0.271
-scalene==1.5.21.3
+scalene==1.5.21.4
 setuptools==67.8.0
 setuptools-scm==7.1.0
 twine==4.0.2
