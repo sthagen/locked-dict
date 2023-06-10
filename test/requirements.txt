@@ -5,7 +5,7 @@ hypothesis==6.77.0
 nox==2023.4.22
 pygments==2.15.1
 pyperf==2.6.0
-pytest==7.3.1
+pytest==7.3.2
 pytest-asyncio==0.21.0
 pytest-benchmark==4.0.0
 pytest-cases==3.6.14
