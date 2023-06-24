@@ -1,0 +1,20 @@
+---
+SPDXID: "SPDXRef-DOCUMENT"
+spdxVersion: "SPDX-2.3"
+creationInfo:
+  comment: "Converted from CycloneDX spec version 1.4"
+  created: "2023-06-24T20:36:50Z"
+  creators:
+  - "Tool: CycloneDX:cyclonedx-bom-3.11.0"
+  - "Tool: CycloneDX:cyclonedx-python-lib-3.1.1"
+  - "Tool: CycloneToSpdx-0.1.4"
+  licenseListVersion: "3.21"
+name: "From-Cyclone-DX"
+dataLicense: "CC0-1.0"
+annotations:
+- annotationDate: "2023-06-24T20:36:52Z"
+  annotationType: "OTHER"
+  annotator: "Tool: CycloneToSpdx"
+  comment: "MISSING_CDX_PROPERTY:extensions={}"
+documentNamespace: "https://cyclonedx/72550ac5-62c4-4bb9-9796-8c435db0757b_1"
+relationships: []
