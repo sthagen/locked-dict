@@ -1,4 +1,20 @@
 #! /usr/bin/env bash
 # Generate SBOM in CycloneDX v1.4 JSON format from requirements
-cyclonedx-py --format json --requirements --in-file requirements.txt --output - | jq . > sbom.json
-sha256sum sbom.json | cut -f1 -d' ' > sbom.json.sha256
+folder="sbom/"
+mkdir -p "${folder}"
+f="${folder}cdx.json"
+cyclonedx-py --format json --requirements --in-file requirements.txt --output - | jq . > "${f}"
+sha256sum "${f}" | cut -f1 -d' ' > "${f}".sha256
+b3sum "${f}" | cut -f1 -d ' ' > "${f}".blake3
+tlsh -f "${f}" | cut -f1 > "${f}".tlsh
+ent -t "${f}" | grep 1 | cut -f 3 -d ',' > "${f}".entropy
+sfb="${folder}spdx."
+for x in json spdx yaml
+do
+    [ -f "${sfb}${x}" ] && rm "${sfb}${x}"
+    cdx2spdx "${f}" "${sfb}${x}"
+    sha256sum "${sfb}${x}" | cut -f1 -d' ' > "${sfb}${x}".sha256
+    b3sum "${sfb}${x}" | cut -f1 -d ' ' > "${sfb}${x}".blake3
+    tlsh -f "${sfb}${x}" | cut -f1 > "${sfb}${x}".tlsh
+    ent -t "${sfb}${x}" | grep 1 | cut -f 3 -d ',' > "${sfb}${x}".entropy
+done
