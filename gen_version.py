@@ -27,6 +27,10 @@ def git_describe(always: bool = True) -> None:
         vector.append('--always')
     revision = subprocess.run(vector, capture_output=True, encoding=ENCODING, text=True, check=True).stdout  # nosec
     revision = 'abadcafe' if revision is None else revision.strip()
+    if revision.startswith('nonce-'):
+        revision = revision.split('-')[-1]
+    if '-' in revision:
+        revision = revision.split('-')[-1]
     print(TARGET.replace('$revision$', revision).replace('$version$', version))
 
 
