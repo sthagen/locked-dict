@@ -6,7 +6,7 @@ black==23.7.0
 bumper==0.1.13
 cattrs==23.1.2
 cogapp==3.3.0
-cyclonedx-bom==3.11.0
+cyclonedx-bom==3.11.2
 filprofiler==2023.3.1
 first==2.0.2
 flake8==6.0.0
