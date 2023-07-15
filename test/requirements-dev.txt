@@ -37,6 +37,7 @@ pycodestyle==2.10.0
 pydocstyle==6.3.0
 pyflakes==3.0.1
 pyinstrument==4.5.0
+pymdown-extensions==10.1
 pyupgrade==3.9.0
 railroad-diagrams==3.0.1
 # refurb==1.4.0
