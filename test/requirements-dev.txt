@@ -51,7 +51,7 @@ types-Markdown==3.4.2.10
 types-PyYAML==6.0.12.11
 types-first==2.0.5.2
 types-jmespath==1.0.2.7
-types-requests==2.31.0.1
+types-requests==2.31.0.2
 types-setuptools==68.0.0.2
 types-toml==0.10.8.6
 validate-pyproject==0.13
