@@ -40,7 +40,7 @@ pydocstyle==6.3.0
 pyflakes==3.1.0
 pyinstrument==4.5.3
 pymdown-extensions==10.3
-pyupgrade==3.10.1
+pyupgrade==3.11.0
 railroad-diagrams==3.0.1
 # refurb==1.4.0
 ruff==0.0.289
