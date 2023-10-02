@@ -43,7 +43,7 @@ pymdown-extensions==10.3
 pyupgrade==3.13.0
 railroad-diagrams==3.0.1
 # refurb==1.4.0
-ruff==0.0.291
+ruff==0.0.292
 # scalene==1.5.21.4
 setuptools==68.2.2
 setuptools-scm==8.0.4
