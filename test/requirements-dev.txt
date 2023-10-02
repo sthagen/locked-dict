@@ -46,7 +46,7 @@ railroad-diagrams==3.0.1
 ruff==0.0.291
 # scalene==1.5.21.4
 setuptools==68.2.2
-setuptools-scm==8.0.3
+setuptools-scm==8.0.4
 twine==4.0.2
 types-Markdown==3.4.2.10
 types-PyYAML==6.0.12.12
