@@ -1,15 +1,20 @@
 ---
 urls:
+  annotated-types: https://github.com/annotated-types/annotated-types/blob/main/README.md
   anyio: https://github.com/agronholm/anyio/blob/master/README.rst
   exceptiongroup: https://github.com/agronholm/exceptiongroup/blob/main/README.rst
   foran: https://git.sr.ht/~sthagen/foran/tree/default/item/README.md
+  httpx: https://github.com/encode/httpx/blob/master/README.md
   idna: https://github.com/kjd/idna/blob/master/README.rst
   jsonschema: https://github.com/python-jsonschema/jsonschema/blob/main/README.rst
+  liitos: https://git.sr.ht/~sthagen/liitos/tree/default/item/README.md
   markdown-it-py: https://github.com/executablebooks/markdown-it-py/blob/master/README.md
   mdformat: https://github.com/executablebooks/mdformat/blob/master/README.md
   mdit-py-plugins: https://github.com/executablebooks/mdit-py-plugins/blob/master/README.md
   mdurl: https://github.com/executablebooks/mdurl/blob/master/README.md
+  navigaattori: https://git.sr.ht/~sthagen/navigaattori/tree/default/item/README.md
   numcodecs: https://github.com/zarr-developers/numcodecs/blob/main/README.rst
+  packaging: https://github.com/pypa/packaging/blob/main/README.rst
   pandoc: https://github.com/boisgera/pandoc/blob/master/README.md
   pyparsing: https://github.com/pyparsing/pyparsing/blob/master/README.rst
   rtoml: https://github.com/samuelcolvin/rtoml/blob/main/README.md
@@ -21,17 +26,24 @@ urls:
 authors:
   aiohttp: '"aiohttp team" <team@aiohttp.org>'
   aiosignal: '"aiohttp team" <team@aiohttp.org>'
+  click: 'Pallets <contact@palletsprojects.com>'
   exceptiongroup: Alex Grönholm
   foran: Stefan Hagen
   frozenlist: '"aiohttp team" <team@aiohttp.org>'
+  httpx: Tom Christie
   idna: Kim Davies
   lazr.uri: '"LAZR Developers" team'
+  liitos: Stefan Hagen
   markdown-it-py: Chris Sewell
   mdformat: Taneli Hukkinen
   mdit-py-plugins: Chris Sewell
   mdurl: Taneli Hukkinen
   msgspec: Jim Crist-Harif
+  navigaattori: Stefan Hagen
   numcodecs: Alistair Miles
+  packaging: Donald Stufft
+  platformdirs: Bernát Gábor
+  pypandoc: Juho Vepsäläinen
   pyparsing: Paul McGuire
   "scikit-learn": Andreas Mueller
   scipy: '"SciPy Developers" <scipy-dev@python.org>'
