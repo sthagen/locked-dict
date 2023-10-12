@@ -55,4 +55,4 @@ types-jmespath==1.0.2.7
 types-requests==2.31.0.8
 types-setuptools==68.2.0.0
 types-toml==0.10.8.7
-validate-pyproject==0.14
+validate-pyproject==0.15
