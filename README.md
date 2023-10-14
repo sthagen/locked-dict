@@ -2,7 +2,7 @@
 
 Implementation of dict supporting context managed thread safe and mutable iterations through a lock.
 
-[License: MIT](https://github.com/sthagen/locked-dict/blob/default/LICENSE)
+[License: MIT](https://github.com/sthagen/locked-dict/blob/default/LICENSE) | 
 [Country of origin: Switzerland](https://git.sr.ht/~sthagen/locked-dict/tree/default/item/COUNTRY-OF-ORIGIN)
 
 Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
