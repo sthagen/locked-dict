@@ -1,5 +1,8 @@
 # Changes
 
+2023.10.22
+:    * Changed repository structure and added about, security, and support info files
+
 2022.7.25
 :    * Purged dark matter from years of CI services
 
@@ -13,12 +16,8 @@
 * Moved normative source repo to https://git.sr.ht/~sthagen/locked-dict
 * Dropped support for any python version below 3.8 (please use locked-dict==0.1.1)
 
-## 2019
-
 2019.11.10 (0.1.1)
 :    * License harmony: BSD to MIT, update source repository user name forming part of the paths / URLs, brushed off bit rot, publication to pypi.
-
-## 2016
 
 2016.9.12 (0.1.0)
 :    * First release on PyPI.
