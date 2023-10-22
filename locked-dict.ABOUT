@@ -1,0 +1,14 @@
+name: locked-dict
+description: Implementation of dict supporting context managed thread safe and mutable iterations through a lock.
+license_spdx: MIT
+version: 2023.10.22
+spec_version: 1.0
+home_url: https://git.sr.ht/~sthagen/locked-dict
+news_url: https://libraries.io/pypi/locked-dict/versions.atom
+date: 2023-10-22
+about_resource: ./
+libraries_io_url: https://libraries.io/pypi/locked-dict?number=2023.10.22
+vcs_tool: git
+vcs_repository: https://git.sr.ht/~sthagen/locked-dict
+vcs_branch: default
+
