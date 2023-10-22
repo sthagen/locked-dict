@@ -21,7 +21,7 @@ HEADER_LABELS = ('Name', 'Version', 'License', 'Author', 'Description (from pack
 fallbacks, FALLBACK_URLS, FALLBACK_AUTHORS, FALLBACK_DESCRIPTIONS = {}, {}, {}, {}
 
 THIRD_PARTY_FALLBACKS = 'third-party-fallbacks.yml'
-TPF_PATH = pathlib.Path(THIRD_PARTY_FALLBACKS)
+TPF_PATH = pathlib.Path('etc', THIRD_PARTY_FALLBACKS)
 if TPF_PATH.is_file():
     print(f'Reading fallback values from file ({TPF_PATH})', file=sys.stderr)
     with open(TPF_PATH, 'rt', encoding=ENCODING) as handle:
@@ -38,7 +38,7 @@ if fallbacks:
 indirect_names, INDIRECT_NAMES = [], []
 
 INDIRECT_PACKAGE_NAMES = 'indirect-package-names.yml'
-IPN_PATH = pathlib.Path(INDIRECT_PACKAGE_NAMES)
+IPN_PATH = pathlib.Path('etc', INDIRECT_PACKAGE_NAMES)
 if IPN_PATH.is_file():
     print(f'Reading indirect names from file ({IPN_PATH})', file=sys.stderr)
     with open(IPN_PATH, 'rt', encoding=ENCODING) as handle:

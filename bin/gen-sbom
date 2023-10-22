@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 # Generate SBOM in CycloneDX v1.4 JSON format from requirements
-folder="sbom/"
+folder="etc/sbom/"
 mkdir -p "${folder}"
 f="${folder}cdx.json"
 cyclonedx-py --format json --requirements --in-file requirements.txt --output - | jq . > "${f}"

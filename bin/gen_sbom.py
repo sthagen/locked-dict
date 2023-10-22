@@ -2,7 +2,7 @@ import pathlib
 
 __all__ = ['sbom_sha256']
 
-BASE_URL = 'https://git.sr.ht/~sthagen/$REPO$/blob/default/sbom/cdx.json'
+BASE_URL = 'https://git.sr.ht/~sthagen/$REPO$/blob/default/etc/sbom/cdx.json'
 ENCODING = 'utf-8'
 TARGET = """\
 The [SBOM in CycloneDX v1.4 JSON format]($JSON_URL$) with SHA256 checksum ([$hash_8$ ...]($JSON_HASH_URL$ "sha256:$hash_full$")).\
@@ -26,9 +26,10 @@ with open('pyproject.toml', 'rt', encoding=ENCODING) as handle:
 if assumed is None:
     assumed = str(pathlib.Path.cwd().parent)
 
+
 def sbom_sha256():
     """Fill in the data."""
-    with open(pathlib.Path('sbom', 'cdx.json.sha256'), 'rt', encoding=ENCODING) as handle:
+    with open(pathlib.Path('etc', 'sbom', 'cdx.json.sha256'), 'rt', encoding=ENCODING) as handle:
         hash_full = handle.read().strip()
     hash_8 = hash_full[:8]
     base_path = BASE_URL.replace('$REPO$', assumed)
