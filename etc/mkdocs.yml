@@ -1,5 +1,7 @@
 site_name: "Locked Dict"
 site_description: "Dict to allow context managed thread safe and mutable iterations through a lock."
+docs_dir: ../docs
+site_dir: ../site
 
 theme:
   name: 'material'
