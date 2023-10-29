@@ -1,0 +1,196 @@
+{
+  "data": [
+    {
+      "category": "3.10",
+      "date": "2023-05",
+      "downloads": 224
+    },
+    {
+      "category": "3.10",
+      "date": "2023-06",
+      "downloads": 195
+    },
+    {
+      "category": "3.10",
+      "date": "2023-07",
+      "downloads": 610
+    },
+    {
+      "category": "3.10",
+      "date": "2023-08",
+      "downloads": 626
+    },
+    {
+      "category": "3.10",
+      "date": "2023-09",
+      "downloads": 679
+    },
+    {
+      "category": "3.10",
+      "date": "2023-10",
+      "downloads": 319
+    },
+    {
+      "category": "3.11",
+      "date": "2023-05",
+      "downloads": 8
+    },
+    {
+      "category": "3.11",
+      "date": "2023-06",
+      "downloads": 57
+    },
+    {
+      "category": "3.11",
+      "date": "2023-07",
+      "downloads": 74
+    },
+    {
+      "category": "3.11",
+      "date": "2023-08",
+      "downloads": 260
+    },
+    {
+      "category": "3.11",
+      "date": "2023-09",
+      "downloads": 424
+    },
+    {
+      "category": "3.11",
+      "date": "2023-10",
+      "downloads": 151
+    },
+    {
+      "category": "3.3",
+      "date": "2023-09",
+      "downloads": 2
+    },
+    {
+      "category": "3.3",
+      "date": "2023-10",
+      "downloads": 6
+    },
+    {
+      "category": "3.7",
+      "date": "2023-05",
+      "downloads": 37
+    },
+    {
+      "category": "3.7",
+      "date": "2023-06",
+      "downloads": 22
+    },
+    {
+      "category": "3.7",
+      "date": "2023-07",
+      "downloads": 15
+    },
+    {
+      "category": "3.7",
+      "date": "2023-08",
+      "downloads": 14
+    },
+    {
+      "category": "3.7",
+      "date": "2023-09",
+      "downloads": 10
+    },
+    {
+      "category": "3.7",
+      "date": "2023-10",
+      "downloads": 4
+    },
+    {
+      "category": "3.8",
+      "date": "2023-05",
+      "downloads": 230
+    },
+    {
+      "category": "3.8",
+      "date": "2023-06",
+      "downloads": 288
+    },
+    {
+      "category": "3.8",
+      "date": "2023-07",
+      "downloads": 187
+    },
+    {
+      "category": "3.8",
+      "date": "2023-08",
+      "downloads": 579
+    },
+    {
+      "category": "3.8",
+      "date": "2023-09",
+      "downloads": 438
+    },
+    {
+      "category": "3.8",
+      "date": "2023-10",
+      "downloads": 247
+    },
+    {
+      "category": "3.9",
+      "date": "2023-05",
+      "downloads": 130
+    },
+    {
+      "category": "3.9",
+      "date": "2023-06",
+      "downloads": 94
+    },
+    {
+      "category": "3.9",
+      "date": "2023-07",
+      "downloads": 58
+    },
+    {
+      "category": "3.9",
+      "date": "2023-08",
+      "downloads": 87
+    },
+    {
+      "category": "3.9",
+      "date": "2023-09",
+      "downloads": 33
+    },
+    {
+      "category": "3.9",
+      "date": "2023-10",
+      "downloads": 15
+    },
+    {
+      "category": "null",
+      "date": "2023-05",
+      "downloads": 13
+    },
+    {
+      "category": "null",
+      "date": "2023-06",
+      "downloads": 22
+    },
+    {
+      "category": "null",
+      "date": "2023-07",
+      "downloads": 22
+    },
+    {
+      "category": "null",
+      "date": "2023-08",
+      "downloads": 37
+    },
+    {
+      "category": "null",
+      "date": "2023-09",
+      "downloads": 8
+    },
+    {
+      "category": "null",
+      "date": "2023-10",
+      "downloads": 95
+    }
+  ],
+  "package": "locked-dict",
+  "type": "python_minor_downloads"
+}
