@@ -1,0 +1,20 @@
+<svg width="109.5" height="20" viewBox="0 0 1095 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="COO: Switzerland">
+  <title>COO: Switzerland</title>
+  <linearGradient id="uOkrF" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="lhPcC"><rect width="1095" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#lhPcC)">
+    <rect width="351" height="200" fill="#555"/>
+    <rect width="744" height="200" fill="#08C" x="351"/>
+    <rect width="1095" height="200" fill="url(#uOkrF)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="60" y="148" textLength="251" fill="#000" opacity="0.25">COO</text>
+    <text x="50" y="138" textLength="251">COO</text>
+    <text x="406" y="148" textLength="644" fill="#000" opacity="0.25">Switzerland</text>
+    <text x="396" y="138" textLength="644">Switzerland</text>
+  </g>
+  
+</svg>

@@ -1,0 +1,20 @@
+<svg width="182.2" height="20" viewBox="0 0 1822 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Country-of-Origin: Switzerland">
+  <title>Country-of-Origin: Switzerland</title>
+  <linearGradient id="WFcOj" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="MaXIt"><rect width="1822" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#MaXIt)">
+    <rect width="1078" height="200" fill="#555"/>
+    <rect width="744" height="200" fill="#3C1" x="1078"/>
+    <rect width="1822" height="200" fill="url(#WFcOj)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="60" y="148" textLength="978" fill="#000" opacity="0.25">Country-of-Origin</text>
+    <text x="50" y="138" textLength="978">Country-of-Origin</text>
+    <text x="1133" y="148" textLength="644" fill="#000" opacity="0.25">Switzerland</text>
+    <text x="1123" y="138" textLength="644">Switzerland</text>
+  </g>
+  
+</svg>

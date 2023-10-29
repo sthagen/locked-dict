@@ -1,0 +1,20 @@
+<svg width="127.5" height="20" viewBox="0 0 1275 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Configuration: SBOM">
+  <title>Configuration: SBOM</title>
+  <linearGradient id="zOyTk" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="CNIQr"><rect width="1275" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#CNIQr)">
+    <rect width="845" height="200" fill="#555"/>
+    <rect width="430" height="200" fill="#3C1" x="845"/>
+    <rect width="1275" height="200" fill="url(#zOyTk)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="60" y="148" textLength="745" fill="#000" opacity="0.25">Configuration</text>
+    <text x="50" y="138" textLength="745">Configuration</text>
+    <text x="900" y="148" textLength="330" fill="#000" opacity="0.25">SBOM</text>
+    <text x="890" y="138" textLength="330">SBOM</text>
+  </g>
+  
+</svg>

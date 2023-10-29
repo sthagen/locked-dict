@@ -1,0 +1,20 @@
+<svg width="140.4" height="20" viewBox="0 0 1404 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Downloads/Month: $n$">
+  <title>Downloads/Month: $n$</title>
+  <linearGradient id="YlXUI" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="JHhop"><rect width="1404" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#JHhop)">
+    <rect width="1094" height="200" fill="#555"/>
+    <rect width="310" height="200" fill="#3C1" x="1094"/>
+    <rect width="1404" height="200" fill="url(#YlXUI)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="60" y="148" textLength="994" fill="#000" opacity="0.25">Downloads/Month</text>
+    <text x="50" y="138" textLength="994">Downloads/Month</text>
+    <text x="1149" y="148" textLength="210" fill="#000" opacity="0.25">$n$</text>
+    <text x="1139" y="138" textLength="210">$n$</text>
+  </g>
+  
+</svg>

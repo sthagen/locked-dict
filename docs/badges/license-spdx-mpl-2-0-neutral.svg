@@ -1,0 +1,20 @@
+<svg width="105.7" height="20" viewBox="0 0 1057 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="License: MPL-2.0">
+  <title>License: MPL-2.0</title>
+  <linearGradient id="TZNmM" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="YOLBF"><rect width="1057" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#YOLBF)">
+    <rect width="507" height="200" fill="#555"/>
+    <rect width="550" height="200" fill="#08C" x="507"/>
+    <rect width="1057" height="200" fill="url(#TZNmM)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="60" y="148" textLength="407" fill="#000" opacity="0.25">License</text>
+    <text x="50" y="138" textLength="407">License</text>
+    <text x="562" y="148" textLength="450" fill="#000" opacity="0.25">MPL-2.0</text>
+    <text x="552" y="138" textLength="450">MPL-2.0</text>
+  </g>
+  
+</svg>
