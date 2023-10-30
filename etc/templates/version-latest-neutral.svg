@@ -1,0 +1,19 @@
+<svg width="125.2" height="20" viewBox="0 0 1252 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Version: $release$">
+  <title>Version: $release$</title>
+  <linearGradient id="CEJbL" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="erize"><rect width="1252" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#erize)">
+    <rect width="512" height="200" fill="#555"/>
+    <rect width="740" height="200" fill="#08C" x="512"/>
+    <rect width="1252" height="200" fill="url(#CEJbL)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="60" y="148" textLength="412" fill="#000" opacity="0.25">Version</text>
+    <text x="50" y="138" textLength="412">Version</text>
+    <text x="567" y="148" textLength="640" fill="#000" opacity="0.25">$release$</text>
+    <text x="557" y="138" textLength="640">$release$</text>
+  </g>
+</svg>

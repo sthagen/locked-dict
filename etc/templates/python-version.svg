@@ -1,0 +1,19 @@
+<svg width="101.1" height="20" viewBox="0 0 1011 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Python: $htmlversionrange$">
+  <title>Python: $htmlversionrange$</title>
+  <linearGradient id="ruARM" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="MNtaG"><rect width="1011" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#MNtaG)">
+    <rect width="481" height="200" fill="#555"/>
+    <rect width="530" height="200" fill="#3C1" x="481"/>
+    <rect width="1011" height="200" fill="url(#ruARM)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="60" y="148" textLength="381" fill="#000" opacity="0.25">Python</text>
+    <text x="50" y="138" textLength="381">Python</text>
+    <text x="536" y="148" textLength="430" fill="#000" opacity="0.25">$htmlversionrange$</text>
+    <text x="526" y="138" textLength="430">$htmlversionrange$</text>
+  </g>
+</svg>
