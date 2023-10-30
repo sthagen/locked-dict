@@ -70,3 +70,4 @@ docs/_build
 .vscode/
 local_*
 site/
+book
