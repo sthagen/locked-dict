@@ -11,7 +11,16 @@ title = "Locked-dict"
 builddir = "book"
 
 [output.html]
-mathjax-support = true
-site-url = "/docs/locked-dict"
+default-theme = "coal"
 git-repository-url = "https://git.sr.ht/~sthagen/locked-dict"
+git-repository-icon = "fa-code-fork"
+mathjax-support = true
+no-section-label = true
+preferred-dark-theme = "navy"
+site-url = "/docs/locked-dict"
 
+[output.html.print]
+enable = false
+
+[output.html.fold]
+enable = false
