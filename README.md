@@ -7,7 +7,7 @@ Implementation of dict supporting context managed thread safe and mutable iterat
 [![Export Classification Control Number (ECCN)](docs/badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/locked-dict/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 [![Configuration](docs/badges/configuration-sbom.svg)](https://git.sr.ht/~sthagen/locked-dict/tree/default/item/docs/third-party/README.md)
 
-[![Version](https://img.shields.io/pypi/v/locked-dict.svg?style=flat)](https://pypi.python.org/pypi/locked-dict/)
+[![Version](docs/badges/latest-release.svg)](https://pypi.python.org/pypi/locked-dict/)
 [![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/locked-dict)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/locked-dict.svg?style=flat)](https://pypi.python.org/pypi/locked-dict/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/locked-dict/log)
