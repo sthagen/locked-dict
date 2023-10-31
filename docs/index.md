@@ -9,7 +9,7 @@ Implementation of dict supporting context managed thread safe and mutable iterat
 
 [![Version](badges/latest-release.svg)](https://pypi.python.org/pypi/locked-dict/)
 [![Downloads](badges/downloads-per-month.svg)](https://pepy.tech/project/locked-dict)
-[![Supported Versions](https://img.shields.io/pypi/pyversions/locked-dict.svg?style=flat)](https://pypi.python.org/pypi/locked-dict/)
+[![Python](badges/python-versions.svg)](https://pypi.python.org/pypi/locked-dict/)
 [![Maintenance Status](badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/locked-dict/log)
 
 ## Usage
