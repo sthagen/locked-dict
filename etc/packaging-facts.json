@@ -1,0 +1,327 @@
+{
+  "info": {
+    "author": "",
+    "author_email": "Stefan Hagen <stefan@hagen.link>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "description": "# Locked-dict\n\nImplementation of dict supporting context managed thread safe and mutable iterations through a lock.\n\n[License: MIT](https://github.com/sthagen/locked-dict/blob/default/LICENSE) | \n[Country of origin: Switzerland](https://git.sr.ht/~sthagen/locked-dict/tree/default/item/COUNTRY-OF-ORIGIN) | \n[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/locked-dict/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)\n\nThird party dependencies are documented in the folder [third-party](docs/third-party/README.md).\n\n[![version](https://img.shields.io/pypi/v/locked-dict.svg?style=flat)](https://pypi.python.org/pypi/locked-dict/)\n[![downloads](https://static.pepy.tech/badge/locked-dict/month)](https://pepy.tech/project/locked-dict)\n[![wheel](https://img.shields.io/pypi/wheel/locked-dict.svg?style=flat)](https://pypi.python.org/pypi/locked-dict/)\n[![supported-versions](https://img.shields.io/pypi/pyversions/locked-dict.svg?style=flat)](https://pypi.python.org/pypi/locked-dict/)\n[![supported-implementations](https://img.shields.io/pypi/implementation/locked-dict.svg?style=flat)](https://pypi.python.org/pypi/locked-dict/)\n[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/locked-dict.svg?style=flat)](https://git.sr.ht/~sthagen/locked-dict/log)\n\n## Documentation\n\nUser and developer [documentation of locked-dict](https://codes.dilettant.life/docs/locked-dict).\n\n## Bug Tracker\n\nAny feature requests or bug reports shall go to the [todos of locked-dict](https://todo.sr.ht/~sthagen/locked-dict).\n\n## Primary Source repository\n\nThe main source of `locked-dict` is on a mountain in central Switzerland.\nWe use distributed version control (git).\nThere is no central hub.\nEvery clone can become a new source for the benefit of all.\nThe preferred public clones of `locked-dict` are:\n\n* [on codeberg](https://codeberg.org/sthagen/locked-dict) - a democratic community-driven, non-profit software development platform operated by Codeberg e.V.\n* [at sourcehut](https://git.sr.ht/~sthagen/locked-dict) - a collection of tools useful for software development.\n\n## Contributions\n\nPlease do not submit \"pull requests\" (I found no way to disable that \"feature\" on GitHub).\nIf you like to share small changes under the repositories license please kindly do so by sending a patchset.\nYou can either send such a patchset per email using [git send-email](https://git-send-email.io) or \nif you are a sourcehut user by selecting \"Prepare a patchset\" on the summary page of your fork at [sourcehut](https://git.sr.ht/).\n\n# Status\n\nProduction/stable.\n\n**Note** The default branch is `default`.\n",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": "",
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "home_page": "",
+    "keywords": "developer-tools,validation,verification",
+    "license": "",
+    "maintainer": "",
+    "maintainer_email": "Stefan Hagen <stefan@hagen.link>",
+    "name": "locked-dict",
+    "package_url": "https://pypi.org/project/locked-dict/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/locked-dict/",
+    "project_urls": {
+      "Bug-Tracker": "https://todo.sr.ht/~sthagen/locked-dict",
+      "Documentation": "https://codes.dilettant.life/docs/locked-dict",
+      "Homepage": "https://git.sr.ht/~sthagen/locked-dict",
+      "Source-Code": "https://git.sr.ht/~sthagen/locked-dict",
+      "Test-Coverage": "https://codes.dilettant.life/coverage/locked-dict"
+    },
+    "release_url": "https://pypi.org/project/locked-dict/2023.10.22/",
+    "requires_dist": [
+      "black ; extra == 'dev'",
+      "coverage ; extra == 'dev'",
+      "hypothesis ; extra == 'dev'",
+      "mypy ; extra == 'dev'",
+      "pytest ; extra == 'dev'",
+      "pytest-cov ; extra == 'dev'",
+      "pytest-flake8 ; extra == 'dev'",
+      "ruff ; extra == 'dev'"
+    ],
+    "requires_python": ">=3.9",
+    "summary": "Implementation of dict supporting context managed thread safe and mutable iterations through a lock.",
+    "version": "2023.10.22",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 20282182,
+  "releases": {
+    "0.1.0": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "2c49f9f0cd2ff998e706155c77b859f834796855b62eb9c53dfd5e89d6f32021",
+          "md5": "e1dc5bf0d0f4b66e72d074b0ab9a2848",
+          "sha256": "08d8f6091f1bd8b326640b2a3e85d7ca334bf7e339e532383f8a99dd9448498a"
+        },
+        "downloads": -1,
+        "filename": "locked-dict-0.1.0.tar.gz",
+        "has_sig": false,
+        "md5_digest": "e1dc5bf0d0f4b66e72d074b0ab9a2848",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17256,
+        "upload_time": "2016-10-17T16:53:37",
+        "upload_time_iso_8601": "2016-10-17T16:53:37.848588Z",
+        "url": "https://files.pythonhosted.org/packages/2c/49/f9f0cd2ff998e706155c77b859f834796855b62eb9c53dfd5e89d6f32021/locked-dict-0.1.0.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "b1d8c17139b4ee55e1674e9158a4f4f96108f1a9a6537872e837d428fe1cad76",
+          "md5": "161cd45c168e221f00b409c029353d2c",
+          "sha256": "6b2bbccb2b9a429225888ef5066d5662c0e96da93e9325c093d61d6a6ad9ae38"
+        },
+        "downloads": -1,
+        "filename": "locked-dict-0.1.1.tar.gz",
+        "has_sig": false,
+        "md5_digest": "161cd45c168e221f00b409c029353d2c",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19125,
+        "upload_time": "2019-11-10T16:53:24",
+        "upload_time_iso_8601": "2019-11-10T16:53:24.382564Z",
+        "url": "https://files.pythonhosted.org/packages/b1/d8/c17139b4ee55e1674e9158a4f4f96108f1a9a6537872e837d428fe1cad76/locked-dict-0.1.1.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2022.7.23": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "59e4146452d0554838a9824adebffdacf744ee5ba9ad8027bbf6327138e84dcb",
+          "md5": "0a688fc500854a9dc863a4d9970baf8a",
+          "sha256": "57ff83232ae3bb50773b5e088bcf7b0f059357e9737c8b3cb1b9c2d632c38a32"
+        },
+        "downloads": -1,
+        "filename": "locked_dict-2022.7.23-py2.py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "0a688fc500854a9dc863a4d9970baf8a",
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": ">=3.8",
+        "size": 6072,
+        "upload_time": "2022-07-23T16:36:17",
+        "upload_time_iso_8601": "2022-07-23T16:36:17.966624Z",
+        "url": "https://files.pythonhosted.org/packages/59/e4/146452d0554838a9824adebffdacf744ee5ba9ad8027bbf6327138e84dcb/locked_dict-2022.7.23-py2.py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "c099137149dec3d33584e909a4be428bd6a483abcc6536c0bd1b6825fcea1488",
+          "md5": "fae8b6d3d1cd3f3e089ea70ca2f727d7",
+          "sha256": "9fdb0df8f20259d51162f9f948a2cfaed2bd844069a6e7d4601150b8c25e417e"
+        },
+        "downloads": -1,
+        "filename": "locked-dict-2022.7.23.tar.gz",
+        "has_sig": false,
+        "md5_digest": "fae8b6d3d1cd3f3e089ea70ca2f727d7",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 12091,
+        "upload_time": "2022-07-23T16:36:19",
+        "upload_time_iso_8601": "2022-07-23T16:36:19.610466Z",
+        "url": "https://files.pythonhosted.org/packages/c0/99/137149dec3d33584e909a4be428bd6a483abcc6536c0bd1b6825fcea1488/locked-dict-2022.7.23.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2022.7.24": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "4c18b2002d8ee7589387991aec564fd54c212a6b358e5f88f9335509daca5249",
+          "md5": "3a5802d489e1b7791066342766a152f8",
+          "sha256": "c98a7cc4dd918a083ae63aaa810252d4ea5a54768ebce91991d893b5a53d9843"
+        },
+        "downloads": -1,
+        "filename": "locked_dict-2022.7.24-py2.py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "3a5802d489e1b7791066342766a152f8",
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": ">=3.8",
+        "size": 6174,
+        "upload_time": "2022-07-23T16:45:01",
+        "upload_time_iso_8601": "2022-07-23T16:45:01.629029Z",
+        "url": "https://files.pythonhosted.org/packages/4c/18/b2002d8ee7589387991aec564fd54c212a6b358e5f88f9335509daca5249/locked_dict-2022.7.24-py2.py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "5b83bac764163d6b296658d4d36c84ff8fa08e95e1c089655ef4b36d5b606ca1",
+          "md5": "2bbfc98ae97844a6fda62aaca1612831",
+          "sha256": "de144008406eff174792a8b85fff7296f55fc745c1188a98407243674b3c5ebf"
+        },
+        "downloads": -1,
+        "filename": "locked-dict-2022.7.24.tar.gz",
+        "has_sig": false,
+        "md5_digest": "2bbfc98ae97844a6fda62aaca1612831",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 12548,
+        "upload_time": "2022-07-23T16:45:03",
+        "upload_time_iso_8601": "2022-07-23T16:45:03.183094Z",
+        "url": "https://files.pythonhosted.org/packages/5b/83/bac764163d6b296658d4d36c84ff8fa08e95e1c089655ef4b36d5b606ca1/locked-dict-2022.7.24.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2022.7.25": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "640d97af988ef43e4a8168c98f75d4e7c126aea0a1cdc1a047acb015c96238f8",
+          "md5": "e2bcdfb8a4a7f38295ed1319b95ef19c",
+          "sha256": "212f4ac581ea8d0e95c739995c99d96c395fe2b9e97daeecffd2aa1de68770b0"
+        },
+        "downloads": -1,
+        "filename": "locked_dict-2022.7.25-py2.py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "e2bcdfb8a4a7f38295ed1319b95ef19c",
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": ">=3.8",
+        "size": 6222,
+        "upload_time": "2022-07-24T09:28:33",
+        "upload_time_iso_8601": "2022-07-24T09:28:33.335681Z",
+        "url": "https://files.pythonhosted.org/packages/64/0d/97af988ef43e4a8168c98f75d4e7c126aea0a1cdc1a047acb015c96238f8/locked_dict-2022.7.25-py2.py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "8db873eb5b4551d810e5ac16841bcabe80e4e6edbc5d5d71126f16693c179c3c",
+          "md5": "c09dd1590fef72a155bc9caefc8d5ed0",
+          "sha256": "e05f3ad087736dcad404015a44e2e77a3e3a714da0a5f9293271351036b95fc7"
+        },
+        "downloads": -1,
+        "filename": "locked-dict-2022.7.25.tar.gz",
+        "has_sig": false,
+        "md5_digest": "c09dd1590fef72a155bc9caefc8d5ed0",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 10423,
+        "upload_time": "2022-07-24T09:28:34",
+        "upload_time_iso_8601": "2022-07-24T09:28:34.993428Z",
+        "url": "https://files.pythonhosted.org/packages/8d/b8/73eb5b4551d810e5ac16841bcabe80e4e6edbc5d5d71126f16693c179c3c/locked-dict-2022.7.25.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2023.10.22": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "c3e71d37503efd6f389e4ec2a87c69a79c8f8f5c92a1533d0ca6885de1b0a160",
+          "md5": "2409f3f8efa173e7dfd616640e9b766d",
+          "sha256": "f179065ed031fb2a21bbd8279a9d15843141c513d868f3f3a38b5eb992800062"
+        },
+        "downloads": -1,
+        "filename": "locked_dict-2023.10.22-py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "2409f3f8efa173e7dfd616640e9b766d",
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 5152,
+        "upload_time": "2023-10-22T14:55:28",
+        "upload_time_iso_8601": "2023-10-22T14:55:28.002390Z",
+        "url": "https://files.pythonhosted.org/packages/c3/e7/1d37503efd6f389e4ec2a87c69a79c8f8f5c92a1533d0ca6885de1b0a160/locked_dict-2023.10.22-py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "c95c2fad1243a0213a5b10cb386c87569e76b4c97a2cb42f041c7ed002337787",
+          "md5": "0dd23b2d8b92c713d8c53e25a69fb5a1",
+          "sha256": "7b4f42e59c429595310310d45e0579751dddcc300079d0535f5512ea7a36a3fa"
+        },
+        "downloads": -1,
+        "filename": "locked-dict-2023.10.22.tar.gz",
+        "has_sig": false,
+        "md5_digest": "0dd23b2d8b92c713d8c53e25a69fb5a1",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 7156,
+        "upload_time": "2023-10-22T14:55:29",
+        "upload_time_iso_8601": "2023-10-22T14:55:29.352273Z",
+        "url": "https://files.pythonhosted.org/packages/c9/5c/2fad1243a0213a5b10cb386c87569e76b4c97a2cb42f041c7ed002337787/locked-dict-2023.10.22.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  },
+  "urls": [
+    {
+      "comment_text": "",
+      "digests": {
+        "blake2b_256": "c3e71d37503efd6f389e4ec2a87c69a79c8f8f5c92a1533d0ca6885de1b0a160",
+        "md5": "2409f3f8efa173e7dfd616640e9b766d",
+        "sha256": "f179065ed031fb2a21bbd8279a9d15843141c513d868f3f3a38b5eb992800062"
+      },
+      "downloads": -1,
+      "filename": "locked_dict-2023.10.22-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "2409f3f8efa173e7dfd616640e9b766d",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": ">=3.9",
+      "size": 5152,
+      "upload_time": "2023-10-22T14:55:28",
+      "upload_time_iso_8601": "2023-10-22T14:55:28.002390Z",
+      "url": "https://files.pythonhosted.org/packages/c3/e7/1d37503efd6f389e4ec2a87c69a79c8f8f5c92a1533d0ca6885de1b0a160/locked_dict-2023.10.22-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    {
+      "comment_text": "",
+      "digests": {
+        "blake2b_256": "c95c2fad1243a0213a5b10cb386c87569e76b4c97a2cb42f041c7ed002337787",
+        "md5": "0dd23b2d8b92c713d8c53e25a69fb5a1",
+        "sha256": "7b4f42e59c429595310310d45e0579751dddcc300079d0535f5512ea7a36a3fa"
+      },
+      "downloads": -1,
+      "filename": "locked-dict-2023.10.22.tar.gz",
+      "has_sig": false,
+      "md5_digest": "0dd23b2d8b92c713d8c53e25a69fb5a1",
+      "packagetype": "sdist",
+      "python_version": "source",
+      "requires_python": ">=3.9",
+      "size": 7156,
+      "upload_time": "2023-10-22T14:55:29",
+      "upload_time_iso_8601": "2023-10-22T14:55:29.352273Z",
+      "url": "https://files.pythonhosted.org/packages/c9/5c/2fad1243a0213a5b10cb386c87569e76b4c97a2cb42f041c7ed002337787/locked-dict-2023.10.22.tar.gz",
+      "yanked": false,
+      "yanked_reason": null
+    }
+  ],
+  "vulnerabilities": []
+}
