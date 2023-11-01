@@ -91,6 +91,18 @@ name:
 
 .PHONY: dlstats
 dlstats:
-	pypistats python_minor --json --monthly $(package) > etc/monthly-downloads.json
-	rq '$$.data..*.downloads' etc/monthly-downloads.json | paste -sd+ - | bc
-	jq . etc/monthly-downloads.json > etc/tempaway && mv etc/tempaway etc/monthly-downloads.json
+	@pypistats python_minor --json --monthly $(package) > etc/monthly-downloads.json
+	@rq '$$.data..*.downloads' etc/monthly-downloads.json | paste -sd+ - | bc
+	@jq . etc/monthly-downloads.json > etc/tempaway && mv etc/tempaway etc/monthly-downloads.json
+	@bin/downloads-per-month
+
+.PHONY: gitstats
+gitstats:
+	@bin/git-stats
+	@bin/commits-per-year
+
+.PHONY: pypistats
+pypistats:
+	@bin/packaging-facts
+	@bin/python-versions
+	@bin/latest-release
