@@ -17,7 +17,7 @@ pytest_codeblocks==0.17.0
 pytest-cov==4.1.0
 pytest-flake8==1.1.1
 pytest-harvest==1.10.4
-pytest-html==4.1.0
+pytest-html==4.1.1
 pytest-mock==3.12.0
 pytest-profiling==1.7.0
 pytest-pydocstyle==2.3.2
