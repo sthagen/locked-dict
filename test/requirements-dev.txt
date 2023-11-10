@@ -50,6 +50,7 @@ scalene==1.5.31.1
 setuptools==68.2.2
 setuptools-scm==8.0.4
 sqlfluff==2.3.5
+stamina==23.2.0
 structlog==23.2.0
 twine==4.0.2
 types-Markdown==3.5.0.1
