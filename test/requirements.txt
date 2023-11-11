@@ -37,7 +37,7 @@ pytest-threadleak==0.5.0
 pytest-timeout==2.2.0
 pytest-todo==0.2.1
 pytest-unordered==0.5.2
-pytest-xdist==3.3.1
+pytest-xdist==3.4.0
 requests==2.31.0
 robotframework==6.1.1
 ward==0.67.2b0
