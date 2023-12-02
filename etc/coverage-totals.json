@@ -1,7 +1,7 @@
 {
   "locked-dict": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:25:24.404299",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 16:24:01 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 67,
@@ -13,6 +13,21 @@
     "num_branches": 12,
     "num_partial_branches": 1,
     "covered_branches": 11,
-    "missing_branches": 1
+    "missing_branches": 1,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 2,
+    "files": [
+      "locked_dict/__init__.py",
+      "locked_dict/locked_dict.py"
+    ],
+    "blake3": "b97d0daa39c65a29ab39b92b2139d9450fcf8d04b715790ed22f522a7ed2ac7e",
+    "blake2": "65c38a439c94efb6c25ef910474576b8ad0b60e8f283d75735bc60a3ed2518df6c097af10eaf4ec969e849b3e2f8c13b2d504496c3e6b9289d73e4b58cd6c1ad",
+    "sha512": "efa5a1a7e34ed52cc9d4539fe917bb568fa95d746d76c01c0dd9845c0ce95f12112f7d0bdc54ea35fdfb1183f0989b2ef1cd29d90f532f90de57f4f24705ac16",
+    "sha384": "49b8ae4c750e4a73baf7939b0680a1998c021f28c1806a3ca83b709185e6002e2fae7b2f3c97e3ede5e47dcd690bb3b6",
+    "sha256": "8a654f702952c3372825390539fa8bde45519d8b3b0058c57648da23f4910b96",
+    "sha1": "be8d1735030de1355c717e8fc146c74a4882abcc",
+    "md5": "e34e726f4ad2849a456bb7f6525415b6",
+    "python_version": "3.10.12",
+    "entropy": 4.652838
   }
 }
