@@ -1,0 +1,18 @@
+{
+  "locked-dict": {
+    "version": "7.3.2",
+    "timestamp": "2023-12-02T15:25:24.404299",
+    "branch_coverage": true,
+    "show_contexts": true,
+    "covered_lines": 67,
+    "num_statements": 69,
+    "percent_covered": 96.29629629629629,
+    "percent_covered_display": "96.30",
+    "missing_lines": 2,
+    "excluded_lines": 0,
+    "num_branches": 12,
+    "num_partial_branches": 1,
+    "covered_branches": 11,
+    "missing_branches": 1
+  }
+}
