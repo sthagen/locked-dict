@@ -1,0 +1,33 @@
+#! /usr/bin/env python3
+"""Fetch the packaging facts from upstream PyPI API and store in DB with JSON format (etc file)."""
+import json
+import pathlib
+import sys
+
+import httpx
+
+DB = pathlib.Path('etc/packaging-facts.json')
+ENCODING = 'utf-8'
+
+
+def main() -> int:
+    """Fetch the packaging facts from upstream PyPI API and store in DB with JSON format (etc file)."""
+    package = pathlib.Path(pathlib.Path.cwd()).name
+    print(f'Package({package})')
+    r = httpx.get(f'https://pypi.org/pypi/{package}/json')
+    print(f'HTTP ReturnCode({r.status_code})')
+    print(f'HTTP ContentType({r.headers["content-type"]})')
+    pypi_extract = json.loads(r.text)
+    info = pypi_extract.get('info', {})
+    if info:
+        version = info.get('version', '')
+        print(f'Version({version})')
+        requires_python = info.get('requires_python', '')
+        print(f'RequiresPython({requires_python})')
+
+    with DB.open('wt', encoding=ENCODING) as handle:
+        json.dump(pypi_extract, handle, indent=2)
+
+
+if __name__ == '__main__':
+    sys.exit(main())

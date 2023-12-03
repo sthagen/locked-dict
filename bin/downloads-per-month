@@ -1,0 +1,82 @@
+#! /usr/bin/env python3
+"""Mix the stored downloads per month value into the badge for documentation."""
+import json
+import pathlib
+import sys
+
+DB = pathlib.Path('etc/monthly-downloads.json')
+ENCODING = 'utf-8'
+SVG_TEMPLATE = pathlib.Path('etc/templates/downloads-per-month-value.svg')
+SVG_TARGET = pathlib.Path('docs/badges/downloads-per-month.svg')
+TOKEN_VAL = '$n$'
+TOKEN_S_WIDTH = '$sw§'
+TOKEN_R_FG_WIDTH = '$rfgw$'
+TOKEN_R_BG_WIDTH = '$rbgw$'
+TOKEN_TEXT_LENGTH = '$tl$'
+
+PARAMS = {
+  1: {
+    'S_WIDTH': 126.4,
+    'R_FG_WIDTH': 170,
+    'R_BG_WIDTH': 1264,
+    'TEXT_LENGTH': 70,
+  },
+  2: {
+    'S_WIDTH': 133.4,
+    'R_FG_WIDTH': 240,
+    'R_BG_WIDTH': 1334,
+    'TEXT_LENGTH': 140,
+  },
+  3: {
+    'S_WIDTH': 140.4,
+    'R_FG_WIDTH': 310,
+    'R_BG_WIDTH': 1404,
+    'TEXT_LENGTH': 210,
+  },
+  4: {
+    'S_WIDTH': 147.4,
+    'R_FG_WIDTH': 380,
+    'R_BG_WIDTH': 1474,
+    'TEXT_LENGTH': 280,
+  },
+  5: {
+    'S_WIDTH': 154.4,
+    'R_FG_WIDTH': 450,
+    'R_BG_WIDTH': 1544,
+    'TEXT_LENGTH': 350,
+  },
+  6: {
+    'S_WIDTH': 161.4,
+    'R_FG_WIDTH': 520,
+    'R_BG_WIDTH': 1614,
+    'TEXT_LENGTH': 420,
+  },
+}
+
+def main() -> int:
+    """Mix the stored downloads per month value into the badge for documentation."""
+    with DB.open('rt', encoding=ENCODING) as handle:
+        db = json.load(handle)
+    data = db.get('data', [{'downloads': 0}])
+    downloads = sum(entry.get('downloads', 0) for entry in data)
+    print(f'db({DB}) -> downloads/month({downloads})')
+    value_width = len(str(downloads))
+    value_width = 6 if value_width > 6 else (1 if value_width < 1 else value_width)
+
+    with SVG_TEMPLATE.open('rt', encoding=ENCODING) as handle:
+        svg = handle.read()
+
+    svg = (svg
+        .replace(TOKEN_VAL, str(downloads))
+        .replace(TOKEN_S_WIDTH, str(PARAMS[value_width]['S_WIDTH']))
+        .replace(TOKEN_R_FG_WIDTH, str(PARAMS[value_width]['R_FG_WIDTH']))
+        .replace(TOKEN_R_BG_WIDTH, str(PARAMS[value_width]['R_BG_WIDTH']))
+        .replace(TOKEN_TEXT_LENGTH, str(PARAMS[value_width]['TEXT_LENGTH']))
+    )
+
+    with SVG_TARGET.open('wt', encoding=ENCODING) as handle:
+        handle.write(svg)
+
+
+if __name__ == '__main__':
+    sys.exit(main())

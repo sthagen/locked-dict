@@ -1,0 +1,76 @@
+#! /usr/bin/env python3
+"""Mix the stored commits per year value into the badge for documentation."""
+import json
+import pathlib
+import sys
+
+DB = pathlib.Path('etc/yearly-commits.json')
+ENCODING = 'utf-8'
+SVG_TEMPLATE = pathlib.Path('etc/templates/commits-per-year-value.svg')
+SVG_TARGET = pathlib.Path('docs/badges/commits-per-year.svg')
+TOKEN_VAL = '$n$'
+TOKEN_S_WIDTH = '$sw§'
+TOKEN_R_FG_WIDTH = '$rfgw$'
+TOKEN_R_BG_WIDTH = '$rbgw$'
+TOKEN_TEXT_LENGTH = '$tl$'
+
+PARAMS = {
+  1: {
+    'S_WIDTH': 106.1,
+    'R_FG_WIDTH': 170,
+    'R_BG_WIDTH': 1061,
+    'TEXT_LENGTH': 70,
+  },
+  2: {
+    'S_WIDTH': 113.1,
+    'R_FG_WIDTH': 240,
+    'R_BG_WIDTH': 1131,
+    'TEXT_LENGTH': 140,
+  },
+  3: {
+    'S_WIDTH': 120.1,
+    'R_FG_WIDTH': 310,
+    'R_BG_WIDTH': 1201,
+    'TEXT_LENGTH': 210,
+  },
+  4: {
+    'S_WIDTH': 127.1,
+    'R_FG_WIDTH': 380,
+    'R_BG_WIDTH': 1271,
+    'TEXT_LENGTH': 280,
+  },
+  5: {
+    'S_WIDTH': 134.1,
+    'R_FG_WIDTH': 450,
+    'R_BG_WIDTH': 1341,
+    'TEXT_LENGTH': 350,
+  },
+}
+
+
+def main() -> int:
+    """Mix the stored commits per year value into the badge for documentation."""
+    with DB.open('rt', encoding=ENCODING) as handle:
+        db = json.load(handle)
+    commits = db.get('commits_per_year', 0)
+    print(f'db({DB}) -> commits/year({commits})')
+    value_width = len(str(commits))
+    value_width = 5 if value_width > 5 else (1 if value_width < 1 else value_width)
+
+    with SVG_TEMPLATE.open('rt', encoding=ENCODING) as handle:
+        svg = handle.read()
+
+    svg = (svg
+        .replace(TOKEN_VAL, str(commits))
+        .replace(TOKEN_S_WIDTH, str(PARAMS[value_width]['S_WIDTH']))
+        .replace(TOKEN_R_FG_WIDTH, str(PARAMS[value_width]['R_FG_WIDTH']))
+        .replace(TOKEN_R_BG_WIDTH, str(PARAMS[value_width]['R_BG_WIDTH']))
+        .replace(TOKEN_TEXT_LENGTH, str(PARAMS[value_width]['TEXT_LENGTH']))
+    )
+
+    with SVG_TARGET.open('wt', encoding=ENCODING) as handle:
+        handle.write(svg)
+
+
+if __name__ == '__main__':
+    sys.exit(main())

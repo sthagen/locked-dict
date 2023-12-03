@@ -1,0 +1,115 @@
+#! /usr/bin/env python3
+"""Fetch average commits / year of all times from local git repository."""
+import datetime as dti
+import json
+import sys
+
+from git import Repo
+
+ENCODING = 'utf-8'
+
+
+def datetime_range(start, end):
+    """Generate all days between two dates."""
+    if end < start:
+        start, end = end, start
+    span = end - start
+    for count in range(span.days + 1):
+        yield start + dti.timedelta(days=count)
+
+
+def main() -> int:
+    """Fetch average commits / year oof all times from local git repository."""
+    repo = Repo('.')
+    commits = repo.iter_commits()
+    times = []
+    # TODO remove the name confusion first is first in commits but last in time
+    first_ts = None
+    collector = {}
+    for commit in commits:
+        committed = dti.datetime.fromtimestamp(commit.committed_date, dti.timezone.utc)
+        committed_at = committed.isoformat('T')
+        if first_ts is None:
+            first_ts = committed
+        last_ts = committed
+        times.append(committed_at)
+        collector[committed_at] = {**commit.stats.total}
+
+    total = len(times)
+
+    month_span_td = first_ts - last_ts
+    year_span = month_span_td.days / 365
+    commits_per_year = int(total / year_span)
+    print(f'{commits_per_year} commits per year')
+
+    with open('etc/yearly-commits.json', 'wt', encoding=ENCODING) as handle:
+        json.dump({'commits_per_year': commits_per_year}, handle, indent=2)
+
+    insertions_count = sum(d['insertions'] for d in collector.values() if d)
+    deletions_count = sum(d['deletions'] for d in collector.values() if d)
+    lines_count = sum(d['lines'] for d in collector.values() if d)
+    files_count = sum(d['files'] for d in collector.values() if d)
+
+    insertions_avg = insertions_count / total
+    deletions_avg = deletions_count / total
+    lines_avg = lines_count / total
+    files_avg = files_count / total
+
+    daily = {}
+    for day in datetime_range(first_ts, last_ts):
+        day_key = day.strftime('%Y-%m-%d')
+        daily[day_key] = {
+            'commits': 0,
+            'insertions': 0,
+            'deletions': 0,
+            'lines': 0,
+            'files': 0,
+        }
+
+    for ts_key, stats in collector.items():
+        day_key = ts_key.split('T')[0]
+        if day_key not in daily:
+            daily[day_key] = {
+                'commits': 0,
+                'insertions': 0,
+                'deletions': 0,
+                'lines': 0,
+                'files': 0,
+            }
+        daily[day_key]['commits'] += 1
+        daily[day_key]['insertions'] += stats['insertions']
+        daily[day_key]['deletions'] += stats['deletions']
+        daily[day_key]['lines'] += stats['lines']
+        daily[day_key]['files'] += stats['files']
+
+    git_stats = {
+        'total': {
+            'commits': total,
+            'first_committed_at': last_ts.isoformat('T'),
+            'last_committed_at': first_ts.isoformat('T'),
+            'month_span_day_count': month_span_td.days,
+            'year_span': year_span,
+            'commits_per_year': commits_per_year,
+            'insertions_per_year': insertions_count / year_span,
+            'deletions_per_year': deletions_count / year_span,
+            'lines_per_year': lines_count / year_span,
+            'files_per_year': files_count / year_span,
+            'insertions_count': insertions_count,
+            'deletions_count': deletions_count,
+            'lines_count': lines_count,
+            'files_count': files_count,
+            'insertions_avg': insertions_avg,
+            'deletions_avg': deletions_avg,
+            'lines_avg': lines_avg,
+            'files_avg': files_avg,
+        },
+        'commit_stats': {**collector},
+        'daily': {**daily},
+    }
+
+    with open('etc/git-stats.json', 'wt', encoding=ENCODING) as handle:
+        json.dump(git_stats, handle, indent=2)
+
+
+if __name__ == '__main__':
+    sys.exit(main())

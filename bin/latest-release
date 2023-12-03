@@ -1,0 +1,33 @@
+#! /usr/bin/env python3
+"""Mix the stored latest release info from packaging facts into the badge for documentation."""
+import json
+import pathlib
+import sys
+
+DB = pathlib.Path('etc/packaging-facts.json')
+ENCODING = 'utf-8'
+SVG_TEMPLATE = pathlib.Path('etc/templates/version-latest-neutral.svg')
+SVG_TARGET = pathlib.Path('docs/badges/latest-release.svg')
+TOKEN = '$release$'
+
+
+def main() -> int:
+    """Mix the stored latest release info from packaging facts into the badge for documentation."""
+    with DB.open('rt', encoding=ENCODING) as handle:
+        db = json.load(handle)
+    info = db.get('info', {})
+    if info:
+        version = info.get('version', '')
+        print(f'Version({version})')
+
+    with SVG_TEMPLATE.open('rt', encoding=ENCODING) as handle:
+        svg = handle.read()
+
+    svg = svg.replace(TOKEN, str(version))
+
+    with SVG_TARGET.open('wt', encoding=ENCODING) as handle:
+        handle.write(svg)
+
+
+if __name__ == '__main__':
+    sys.exit(main())

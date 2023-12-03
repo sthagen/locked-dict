@@ -1,0 +1,38 @@
+#! /usr/bin/env python3
+"""Mix the stored python versions compatibility info from packaging facts into the badge for documentation."""
+import json
+import pathlib
+import sys
+
+DB = pathlib.Path('etc/packaging-facts.json')
+ENCODING = 'utf-8'
+SVG_TEMPLATE = pathlib.Path('etc/templates/python-version-neutral.svg')
+SVG_TARGET = pathlib.Path('docs/badges/python-versions.svg')
+TOKEN = '$htmlversionrange$'
+GREATER = '>'
+ESCAPE_GREATER = '&gt;'
+
+
+def main() -> int:
+    """Mix the stored python versions compatibility info from packaging facts into the badge for documentation."""
+    with DB.open('rt', encoding=ENCODING) as handle:
+        db = json.load(handle)
+    info = db.get('info', {})
+    if info:
+        requires_python = info.get('requires_python', '')
+        print(f'Python({requires_python})')
+
+    if GREATER in requires_python:
+        requires_python = requires_python.replace(GREATER, ESCAPE_GREATER)
+
+    with SVG_TEMPLATE.open('rt', encoding=ENCODING) as handle:
+        svg = handle.read()
+
+    svg = svg.replace(TOKEN, str(requires_python))
+
+    with SVG_TARGET.open('wt', encoding=ENCODING) as handle:
+        handle.write(svg)
+
+
+if __name__ == '__main__':
+    sys.exit(main())
