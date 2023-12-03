@@ -109,4 +109,4 @@ pypistats:
 
 .PHONY: covstats
 covstats:
-	bin/gen_coverage.sh
+	bin/gen-coverage
