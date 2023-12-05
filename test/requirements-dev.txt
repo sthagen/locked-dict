@@ -8,7 +8,7 @@ bumper==0.1.13
 cattrs==23.2.3
 cogapp==3.3.0
 cyclonedx-bom==3.11.7
-dulwich==0.21.6
+dulwich==0.21.7
 everett==3.3.0
 filprofiler==2023.3.1
 first==2.0.2
