@@ -40,4 +40,4 @@ pytest-unordered==0.5.2
 pytest-xdist==3.5.0
 requests==2.31.0
 robotframework==6.1.1
-ward==0.67.2b0
+ward==0.68.0b0
