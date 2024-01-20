@@ -28,7 +28,7 @@ mypy==1.8.0
 objgraph==3.6.0
 packaging==23.2
 pdoc==14.4.0
-pip-licenses==4.3.3
+pip-licenses==4.3.4
 pip-requirements-parser==32.0.1
 pip-tools==7.3.0
 pipdeptree==2.13.2
