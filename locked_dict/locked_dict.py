@@ -1,4 +1,5 @@
 """Provide a single class derived from dict to allow thread safe and mutable iterations through a lock."""
+
 import itertools
 import threading
 from typing import no_type_check
