@@ -42,70 +42,15 @@ exclude = ["test*"]
 [tool.black]
 line-length = 120
 skip-string-normalization = true
-target-version = ["py39", "py310", "py311", "py312"]
+target-version = [ "py39", "py310", "py311", "py312" ]
 
 [tool.coverage.run]
 branch = true
 
 [tool.coverage.report]
 precision = 2
-exclude_lines = [
-    "pragma: no cover",
-    "raise NotImplementedError",
-    "if TYPE_CHECKING:",
-    "@overload",
-]
-omit = [
-    "*/__main__.py",
-]
-
-[tool.ruff]
-line-length = 120
-exclude = [
-    ".bzr",
-    ".direnv",
-    ".eggs",
-    ".git",
-    ".hg",
-    ".mypy_cache",
-    ".nox",
-    ".pants.d",
-    ".ruff_cache",
-    ".svn",
-    ".tox",
-    ".venv",
-    "__pypackages__",
-    "_build",
-    "buck-out",
-    "build",
-    "dist",
-    "node_modules",
-    "venv",
-]
-target-version = "py310"
-
-[tool.ruff.lint]
-select = ["E", "F", "Q"]
-ignore = []
-dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
-unfixable = ["F401"]
-
-[tool.ruff.lint.flake8-quotes]
-docstring-quotes = "double"
-inline-quotes = "single"
-
-[tool.ruff.lint.per-file-ignores]
-"__init__.py" = ["E402"]
-
-[tool.ruff.lint.flake8-import-conventions.aliases]
-altair = "alt"
-"matplotlib.pyplot" = "plt"
-numpy = "np"
-pandas = "pd"
-seaborn = "sns"
-
-[tool.ruff.lint.mccabe]
-max-complexity = 42  # default is 10
+exclude_lines = [ "pragma: no cover", "raise NotImplementedError", "if TYPE_CHECKING:", "@overload" ]
+omit = [ "*/__main__.py" ]
 
 [tool.mypy]
 strict = true
@@ -115,3 +60,27 @@ implicit_reexport = true
 testpaths = "test"
 filterwarnings = "error"
 
+[tool.ruff]
+line-length = 120
+exclude = [ ".direnv", ".eggs", ".git", ".mypy_cache", ".ruff_cache", ".venv", "__pypackages__", "bin", "dist", "venv" ]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [ "E", "F", "Q" ]
+
+[tool.ruff.lint.flake8-quotes]
+docstring-quotes = "double"
+inline-quotes = "single"
+
+[tool.ruff.lint.flake8-import-conventions.aliases]
+altair = "alt"
+"matplotlib.pyplot" = "plt"
+numpy = "np"
+pandas = "pd"
+seaborn = "sns"
+
+[tool.ruff.lint.mccabe]
+max-complexity = 42
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = [ "E402" ]
