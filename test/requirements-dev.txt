@@ -47,7 +47,7 @@ railroad-diagrams==3.0.1
 # refurb==1.4.0
 ruff==0.2.1
 scalene==1.5.34
-setuptools==69.0.3
+setuptools==69.1.0
 setuptools-scm==8.0.4
 sqlfluff==2.3.5
 stamina==24.2.0
