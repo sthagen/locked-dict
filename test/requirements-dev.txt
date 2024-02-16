@@ -30,7 +30,7 @@ packaging==23.2
 pdoc==14.4.0
 pip-licenses==4.3.4
 pip-requirements-parser==32.0.1
-pip-tools==7.3.0
+pip-tools==7.4.0
 pipdeptree==2.14.0
 # prospector==1.8.1
 py-cpuinfo==9.0.0
