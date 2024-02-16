@@ -7,7 +7,7 @@ hypothesis-networkx==0.3.0
 nox==2023.4.22
 pygments==2.17.2
 pyperf==2.6.2
-pytest==8.0.0
+pytest==8.0.1
 pytest-asyncio==0.23.5
 # pytest-cases==3.8.2
 pytest-check==2.3.1
