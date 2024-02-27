@@ -21,6 +21,7 @@
       "last_month": -1,
       "last_week": -1
     },
+    "dynamic": null,
     "home_page": "",
     "keywords": "developer-tools,validation,verification",
     "license": "",
@@ -37,6 +38,7 @@
       "Source-Code": "https://git.sr.ht/~sthagen/locked-dict",
       "Test-Coverage": "https://codes.dilettant.life/coverage/locked-dict"
     },
+    "provides_extra": null,
     "release_url": "https://pypi.org/project/locked-dict/2023.10.22/",
     "requires_dist": [
       "black ; extra == 'dev'",
