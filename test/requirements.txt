@@ -22,7 +22,7 @@ pytest-mock==3.12.0
 pytest-profiling==1.7.0
 pytest-pydocstyle==2.3.2
 pytest-race==0.2.0
-pytest-reporter==0.5.2
+pytest-reporter==0.5.3
 pytest-shell==0.3.2
 pytest-sherlock==0.3.4
 pytest-shutil==1.7.0
