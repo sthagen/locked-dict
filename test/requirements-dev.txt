@@ -26,7 +26,7 @@ line-profiler==4.1.2
 memory-profiler==0.61.0
 mypy==1.9.0
 objgraph==3.6.1
-packaging==23.2
+packaging==24.0
 pdoc==14.4.0
 pip-licenses==4.3.4
 pip-requirements-parser==32.0.1
