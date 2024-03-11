@@ -53,7 +53,7 @@ sqlfluff==2.3.5
 stamina==24.2.0
 structlog==24.1.0
 twine==5.0.0
-types-Markdown==3.5.0.20240129
+types-Markdown==3.5.0.20240311
 types-PyYAML==6.0.12.12
 types-first==2.0.5.2
 types-jmespath==1.0.2.20240106
