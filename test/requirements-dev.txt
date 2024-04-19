@@ -49,7 +49,7 @@ ruff==0.4.1
 scalene==1.5.39
 setuptools==69.5.1
 setuptools-scm==8.0.4
-sqlfluff==3.0.4
+sqlfluff==3.0.5
 stamina==24.2.0
 structlog==24.1.0
 twine==5.0.0
