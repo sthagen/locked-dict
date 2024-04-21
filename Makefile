@@ -3,7 +3,7 @@ package = locked_dict
 pyversion = py312
 linelength = 120
 black = black -S -l $(linelength) --target-version $(pyversion) $(package) test
-lint = ruff $(package) test
+lint = ruff check $(package) test
 pytest = pytest --asyncio-mode=strict --cov=$(package) --cov-report term-missing:skip-covered --cov-branch --log-format="%(levelname)s %(message)s"
 types = mypy $(package)
 
