@@ -19,7 +19,7 @@ pytest-flake8==1.1.1
 pytest-harvest==1.10.5
 pytest-html==4.1.1
 pytest-mock==3.14.0
-pytest-profiling==1.7.0
+# pytest-profiling==1.7.0
 pytest-pydocstyle==2.3.2
 pytest-race==0.2.0
 pytest-reporter==0.5.3
