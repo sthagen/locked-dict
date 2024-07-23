@@ -3,7 +3,7 @@
     {
       "category": "3.10",
       "date": "2024-01",
-      "downloads": 328
+      "downloads": 278
     },
     {
       "category": "3.10",
@@ -33,12 +33,12 @@
     {
       "category": "3.10",
       "date": "2024-07",
-      "downloads": 1217
+      "downloads": 1257
     },
     {
       "category": "3.11",
       "date": "2024-01",
-      "downloads": 105
+      "downloads": 97
     },
     {
       "category": "3.11",
@@ -68,12 +68,12 @@
     {
       "category": "3.11",
       "date": "2024-07",
-      "downloads": 637
+      "downloads": 697
     },
     {
       "category": "3.12",
       "date": "2024-01",
-      "downloads": 74
+      "downloads": 66
     },
     {
       "category": "3.12",
@@ -103,7 +103,7 @@
     {
       "category": "3.12",
       "date": "2024-07",
-      "downloads": 211
+      "downloads": 219
     },
     {
       "category": "3.6",
@@ -113,7 +113,7 @@
     {
       "category": "3.8",
       "date": "2024-01",
-      "downloads": 43
+      "downloads": 36
     },
     {
       "category": "3.8",
@@ -143,7 +143,7 @@
     {
       "category": "3.8",
       "date": "2024-07",
-      "downloads": 189
+      "downloads": 197
     },
     {
       "category": "3.9",
@@ -178,7 +178,7 @@
     {
       "category": "3.9",
       "date": "2024-07",
-      "downloads": 275
+      "downloads": 290
     },
     {
       "category": "null",
@@ -213,7 +213,7 @@
     {
       "category": "null",
       "date": "2024-07",
-      "downloads": 49
+      "downloads": 50
     }
   ],
   "package": "locked-dict",
