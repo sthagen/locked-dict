@@ -54,7 +54,7 @@ stamina==24.2.0
 structlog==24.4.0
 twine==5.1.1
 types-Markdown==3.6.0.20240316
-types-PyYAML==6.0.12.20240311
+types-PyYAML==6.0.12.20240724
 types-first==2.0.5.2
 types-jmespath==1.0.2.20240106
 types-requests==2.32.0.20240712
