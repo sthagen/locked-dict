@@ -40,7 +40,7 @@ pydocstyle==6.3.0
 pyflakes==3.2.0
 pyinstrument==4.6.2
 python-configuration==0.12.1
-pymdown-extensions==10.8.1
+pymdown-extensions==10.9
 pypistats==1.6.0
 pyupgrade==3.16.0
 railroad-diagrams==3.0.1
