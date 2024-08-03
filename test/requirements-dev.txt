@@ -1,7 +1,7 @@
 GitPython==3.1.43
 Jinja2==3.1.4
 Pympler==1.1
-attrs==23.2.0
+attrs==24.1.0
 bandit==1.7.9
 black==24.8.0
 bumper==0.1.13
