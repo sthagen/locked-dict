@@ -12,7 +12,7 @@ dulwich==0.22.1
 everett==3.3.0
 # filprofiler==2023.3.1
 first==2.0.2
-flake8==7.1.0
+flake8==7.1.1
 flake8-quotes==3.4.0
 graphviz==0.20.3
 guppy3==3.1.4.post1
