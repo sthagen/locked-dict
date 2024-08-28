@@ -5,7 +5,7 @@ attrs==24.2.0
 bandit==1.7.9
 black==24.8.0
 bumper==0.1.13
-cattrs==23.2.3
+cattrs==24.1.0
 cogapp==3.4.1
 cyclonedx-bom==4.5.0
 dulwich==0.22.1
