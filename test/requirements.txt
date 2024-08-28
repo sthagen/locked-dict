@@ -10,7 +10,7 @@ pyperf==2.7.0
 pytest==8.3.2
 pytest-asyncio==0.24.0
 # pytest-cases==3.8.2
-pytest-check==2.4.0
+pytest-check==2.4.1
 pytest-check-links==0.10.1
 # pytest-checkdocs==2.13.0
 pytest_codeblocks==0.17.0
