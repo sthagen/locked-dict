@@ -45,7 +45,7 @@ pypistats==1.6.0
 pyupgrade==3.17.0
 railroad-diagrams==3.0.1
 # refurb==1.4.0
-ruff==0.6.2
+ruff==0.6.3
 scalene==1.5.44.1
 setuptools==74.0.0
 setuptools-scm==8.1.0
