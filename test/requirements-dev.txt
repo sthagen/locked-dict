@@ -38,7 +38,7 @@ py-cpuinfo==9.0.0
 pycodestyle==2.12.1
 pydocstyle==6.3.0
 pyflakes==3.2.0
-pyinstrument==4.7.2
+pyinstrument==4.7.3
 python-configuration==0.12.1
 pymdown-extensions==10.9
 pypistats==1.6.0
