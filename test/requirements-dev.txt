@@ -3,7 +3,7 @@ Jinja2==3.1.4
 Pympler==1.1
 attrs==24.2.0
 bandit==1.7.10
-black==24.8.0
+black==24.10.0
 bumper==0.1.13
 cattrs==24.1.2
 cogapp==3.4.1
