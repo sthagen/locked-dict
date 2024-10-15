@@ -41,7 +41,7 @@ pyflakes==3.2.0
 pyinstrument==5.0.0
 python-configuration==0.12.1
 pymdown-extensions==10.11.2
-pypistats==1.6.0
+pypistats==1.7.0
 pyupgrade==3.18.0
 railroad-diagrams==3.0.1
 # refurb==1.4.0
