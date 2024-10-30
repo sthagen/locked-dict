@@ -9,7 +9,7 @@ cattrs==24.1.2
 cogapp==3.4.1
 cyclonedx-bom==5.1.0
 dulwich==0.22.3
-everett==3.3.0
+everett==3.4.0
 # filprofiler==2023.3.1
 first==2.0.2
 flake8==7.1.1
