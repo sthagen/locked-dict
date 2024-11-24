@@ -1,5 +1,5 @@
 Faker==33.0.0
-coverage==7.6.7
+coverage==7.6.8
 dirty-equals==0.8.0
 hypothesis==6.119.4
 hypothesis-jsonschema==0.23.1
