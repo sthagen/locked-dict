@@ -24,7 +24,7 @@ ipython==8.31.0
 isort==5.13.2
 line-profiler==4.2.0
 memory-profiler==0.61.0
-mypy==1.14.0
+mypy==1.14.1
 objgraph==3.6.2
 packaging==24.2
 pdoc==15.0.1
