@@ -5,7 +5,7 @@ hypothesis==6.123.2
 hypothesis-jsonschema==0.23.1
 hypothesis-networkx==0.3.0
 nox==2024.10.9
-pygments==2.18.0
+pygments==2.19.0
 pyperf==2.8.1
 pytest==8.3.4
 pytest-asyncio==0.25.1
