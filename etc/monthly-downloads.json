@@ -8,7 +8,7 @@
     {
       "category": "3.10",
       "date": "2024-08",
-      "downloads": 1220
+      "downloads": 1160
     },
     {
       "category": "3.10",
@@ -33,12 +33,17 @@
     {
       "category": "3.10",
       "date": "2025-01",
-      "downloads": 675
+      "downloads": 714
+    },
+    {
+      "category": "3.10",
+      "date": "2025-02",
+      "downloads": 8
     },
     {
       "category": "3.11",
       "date": "2024-08",
-      "downloads": 723
+      "downloads": 669
     },
     {
       "category": "3.11",
@@ -63,12 +68,17 @@
     {
       "category": "3.11",
       "date": "2025-01",
-      "downloads": 837
+      "downloads": 935
+    },
+    {
+      "category": "3.11",
+      "date": "2025-02",
+      "downloads": 12
     },
     {
       "category": "3.12",
       "date": "2024-08",
-      "downloads": 278
+      "downloads": 254
     },
     {
       "category": "3.12",
@@ -93,7 +103,12 @@
     {
       "category": "3.12",
       "date": "2025-01",
-      "downloads": 277
+      "downloads": 295
+    },
+    {
+      "category": "3.12",
+      "date": "2025-02",
+      "downloads": 8
     },
     {
       "category": "3.13",
@@ -113,7 +128,7 @@
     {
       "category": "3.13",
       "date": "2025-01",
-      "downloads": 6
+      "downloads": 10
     },
     {
       "category": "3.6",
@@ -133,7 +148,7 @@
     {
       "category": "3.8",
       "date": "2024-08",
-      "downloads": 256
+      "downloads": 230
     },
     {
       "category": "3.8",
@@ -158,12 +173,17 @@
     {
       "category": "3.8",
       "date": "2025-01",
-      "downloads": 258
+      "downloads": 274
+    },
+    {
+      "category": "3.8",
+      "date": "2025-02",
+      "downloads": 10
     },
     {
       "category": "3.9",
       "date": "2024-08",
-      "downloads": 300
+      "downloads": 277
     },
     {
       "category": "3.9",
@@ -188,12 +208,12 @@
     {
       "category": "3.9",
       "date": "2025-01",
-      "downloads": 431
+      "downloads": 463
     },
     {
       "category": "null",
       "date": "2024-08",
-      "downloads": 62
+      "downloads": 61
     },
     {
       "category": "null",
@@ -218,7 +238,12 @@
     {
       "category": "null",
       "date": "2025-01",
-      "downloads": 288
+      "downloads": 317
+    },
+    {
+      "category": "null",
+      "date": "2025-02",
+      "downloads": 9
     }
   ],
   "package": "locked-dict",
