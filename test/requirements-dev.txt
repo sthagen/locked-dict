@@ -20,7 +20,7 @@ httpx==0.28.1
 icdiff==2.0.7
 icecream==2.1.4
 ipdb==0.13.13
-ipython==8.32.0
+ipython==9.0.0
 isort==6.0.1
 line-profiler==4.2.0
 memory-profiler==0.61.0
