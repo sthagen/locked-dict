@@ -51,7 +51,7 @@ setuptools==76.0.0
 setuptools-scm==8.2.0
 sqlfluff==3.3.1
 stamina==25.1.0
-structlog==25.1.0
+structlog==25.2.0
 twine==6.1.0
 types-Markdown==3.7.0.20241204
 types-PyYAML==6.0.12.20241230
