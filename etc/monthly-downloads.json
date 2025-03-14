@@ -1,14 +1,9 @@
 {
   "data": [
     {
-      "category": "2.7",
-      "date": "2024-09",
-      "downloads": 1
-    },
-    {
       "category": "3.10",
       "date": "2024-09",
-      "downloads": 1040
+      "downloads": 652
     },
     {
       "category": "3.10",
@@ -38,12 +33,12 @@
     {
       "category": "3.10",
       "date": "2025-03",
-      "downloads": 335
+      "downloads": 496
     },
     {
       "category": "3.11",
       "date": "2024-09",
-      "downloads": 785
+      "downloads": 536
     },
     {
       "category": "3.11",
@@ -73,12 +68,12 @@
     {
       "category": "3.11",
       "date": "2025-03",
-      "downloads": 344
+      "downloads": 700
     },
     {
       "category": "3.12",
       "date": "2024-09",
-      "downloads": 236
+      "downloads": 174
     },
     {
       "category": "3.12",
@@ -108,7 +103,7 @@
     {
       "category": "3.12",
       "date": "2025-03",
-      "downloads": 82
+      "downloads": 154
     },
     {
       "category": "3.13",
@@ -138,7 +133,7 @@
     {
       "category": "3.13",
       "date": "2025-03",
-      "downloads": 4
+      "downloads": 6
     },
     {
       "category": "3.5",
@@ -163,7 +158,7 @@
     {
       "category": "3.8",
       "date": "2024-09",
-      "downloads": 244
+      "downloads": 184
     },
     {
       "category": "3.8",
@@ -193,12 +188,12 @@
     {
       "category": "3.8",
       "date": "2025-03",
-      "downloads": 123
+      "downloads": 217
     },
     {
       "category": "3.9",
       "date": "2024-09",
-      "downloads": 215
+      "downloads": 173
     },
     {
       "category": "3.9",
@@ -228,12 +223,12 @@
     {
       "category": "3.9",
       "date": "2025-03",
-      "downloads": 86
+      "downloads": 140
     },
     {
       "category": "null",
       "date": "2024-09",
-      "downloads": 119
+      "downloads": 110
     },
     {
       "category": "null",
@@ -263,7 +258,7 @@
     {
       "category": "null",
       "date": "2025-03",
-      "downloads": 31
+      "downloads": 68
     }
   ],
   "package": "locked-dict",
