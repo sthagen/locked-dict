@@ -3,7 +3,7 @@
     {
       "category": "3.10",
       "date": "2024-09",
-      "downloads": 652
+      "downloads": 501
     },
     {
       "category": "3.10",
@@ -33,12 +33,12 @@
     {
       "category": "3.10",
       "date": "2025-03",
-      "downloads": 496
+      "downloads": 538
     },
     {
       "category": "3.11",
       "date": "2024-09",
-      "downloads": 536
+      "downloads": 405
     },
     {
       "category": "3.11",
@@ -68,12 +68,12 @@
     {
       "category": "3.11",
       "date": "2025-03",
-      "downloads": 700
+      "downloads": 756
     },
     {
       "category": "3.12",
       "date": "2024-09",
-      "downloads": 174
+      "downloads": 140
     },
     {
       "category": "3.12",
@@ -103,7 +103,7 @@
     {
       "category": "3.12",
       "date": "2025-03",
-      "downloads": 154
+      "downloads": 162
     },
     {
       "category": "3.13",
@@ -133,7 +133,7 @@
     {
       "category": "3.13",
       "date": "2025-03",
-      "downloads": 6
+      "downloads": 8
     },
     {
       "category": "3.5",
@@ -156,9 +156,14 @@
       "downloads": 1
     },
     {
+      "category": "3.7",
+      "date": "2025-03",
+      "downloads": 1
+    },
+    {
       "category": "3.8",
       "date": "2024-09",
-      "downloads": 184
+      "downloads": 150
     },
     {
       "category": "3.8",
@@ -188,12 +193,12 @@
     {
       "category": "3.8",
       "date": "2025-03",
-      "downloads": 217
+      "downloads": 225
     },
     {
       "category": "3.9",
       "date": "2024-09",
-      "downloads": 173
+      "downloads": 133
     },
     {
       "category": "3.9",
@@ -223,12 +228,12 @@
     {
       "category": "3.9",
       "date": "2025-03",
-      "downloads": 140
+      "downloads": 142
     },
     {
       "category": "null",
       "date": "2024-09",
-      "downloads": 110
+      "downloads": 77
     },
     {
       "category": "null",
@@ -258,7 +263,7 @@
     {
       "category": "null",
       "date": "2025-03",
-      "downloads": 68
+      "downloads": 81
     }
   ],
   "package": "locked-dict",
