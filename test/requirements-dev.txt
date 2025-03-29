@@ -35,7 +35,7 @@ pipdeptree==2.26.0
 # prospector==1.8.1
 py-cpuinfo==9.0.0
 # py-sbom-components==0.2.1
-pycodestyle==2.12.1
+pycodestyle==2.13.0
 pydocstyle==6.3.0
 pyflakes==3.2.0
 pyinstrument==5.0.1
