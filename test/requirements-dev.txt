@@ -42,7 +42,7 @@ pyinstrument==5.0.1
 python-configuration==0.12.1
 pymdown-extensions==10.15
 pypistats==1.10.0
-pyupgrade==3.19.1
+pyupgrade==3.20.0
 railroad-diagrams==3.0.1
 # refurb==1.4.0
 ruff==0.11.11
