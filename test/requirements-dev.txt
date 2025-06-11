@@ -6,7 +6,7 @@ bandit==1.8.3
 black==25.1.0
 bumper==0.1.13
 cattrs==25.1.1
-cogapp==3.5.0
+cogapp==3.5.1
 cyclonedx-bom==6.1.1
 dulwich==0.22.8
 everett==3.4.0
