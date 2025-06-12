@@ -38,6 +38,6 @@ pytest-timeout==2.4.0
 pytest-todo==0.2.1
 pytest-unordered==0.7.0
 pytest-xdist==3.7.0
-requests==2.32.3
+requests==2.32.4
 robotframework==7.3
 ward==0.68.0b0
