@@ -3,7 +3,7 @@
     {
       "category": "3.10",
       "date": "2024-12",
-      "downloads": 2336
+      "downloads": 1635
     },
     {
       "category": "3.10",
@@ -33,12 +33,12 @@
     {
       "category": "3.10",
       "date": "2025-06",
-      "downloads": 3370
+      "downloads": 3426
     },
     {
       "category": "3.11",
       "date": "2024-12",
-      "downloads": 431
+      "downloads": 274
     },
     {
       "category": "3.11",
@@ -68,12 +68,12 @@
     {
       "category": "3.11",
       "date": "2025-06",
-      "downloads": 1755
+      "downloads": 1853
     },
     {
       "category": "3.12",
       "date": "2024-12",
-      "downloads": 192
+      "downloads": 134
     },
     {
       "category": "3.12",
@@ -103,12 +103,12 @@
     {
       "category": "3.12",
       "date": "2025-06",
-      "downloads": 690
+      "downloads": 746
     },
     {
       "category": "3.13",
       "date": "2024-12",
-      "downloads": 9
+      "downloads": 4
     },
     {
       "category": "3.13",
@@ -138,7 +138,7 @@
     {
       "category": "3.13",
       "date": "2025-06",
-      "downloads": 548
+      "downloads": 600
     },
     {
       "category": "3.14",
@@ -178,7 +178,7 @@
     {
       "category": "3.8",
       "date": "2024-12",
-      "downloads": 206
+      "downloads": 132
     },
     {
       "category": "3.8",
@@ -208,12 +208,12 @@
     {
       "category": "3.8",
       "date": "2025-06",
-      "downloads": 141
+      "downloads": 159
     },
     {
       "category": "3.9",
       "date": "2024-12",
-      "downloads": 236
+      "downloads": 125
     },
     {
       "category": "3.9",
@@ -243,12 +243,12 @@
     {
       "category": "3.9",
       "date": "2025-06",
-      "downloads": 794
+      "downloads": 838
     },
     {
       "category": "null",
       "date": "2024-12",
-      "downloads": 120
+      "downloads": 89
     },
     {
       "category": "null",
@@ -278,7 +278,7 @@
     {
       "category": "null",
       "date": "2025-06",
-      "downloads": 22
+      "downloads": 23
     }
   ],
   "package": "locked-dict",
