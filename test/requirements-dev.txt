@@ -18,7 +18,7 @@ graphviz==0.21
 guppy3==3.1.5
 httpx==0.28.1
 icdiff==2.0.7
-icecream==2.1.5
+icecream==2.1.6
 ipdb==0.13.13
 ipython==9.4.0
 isort==6.0.1
