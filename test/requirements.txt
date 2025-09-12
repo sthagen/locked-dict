@@ -8,7 +8,7 @@ nox==2025.5.1
 pygments==2.19.2
 pyperf==2.9.0
 pytest==8.4.2
-pytest-asyncio==1.1.0
+pytest-asyncio==1.2.0
 # pytest-cases==3.8.2
 pytest-check==2.5.3
 pytest-check-links==0.10.1
