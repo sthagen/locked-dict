@@ -4,7 +4,7 @@ dirty-equals==0.10.0
 hypothesis==6.142.0
 hypothesis-jsonschema==0.23.1
 hypothesis-networkx==0.3.0
-nox==2025.5.1
+nox==2025.10.14
 pygments==2.19.2
 pyperf==2.9.0
 pytest==8.4.2
