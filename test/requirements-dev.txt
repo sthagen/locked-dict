@@ -7,7 +7,7 @@ black==25.9.0
 bumper==0.1.13
 cattrs==25.3.0
 cogapp==3.6.0
-cyclonedx-bom==7.2.0
+cyclonedx-bom==7.2.1
 dulwich==0.24.7
 everett==3.5.0
 # filprofiler==2023.3.1
