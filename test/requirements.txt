@@ -1,7 +1,7 @@
 Faker==38.0.0
 coverage==7.12.0
 dirty-equals==0.11
-hypothesis==6.148.1
+hypothesis==6.148.2
 hypothesis-jsonschema==0.23.1
 hypothesis-networkx==0.3.0
 nox==2025.11.12
