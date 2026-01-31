@@ -1,4 +1,4 @@
-GitPython==3.1.45
+GitPython==3.1.46
 Jinja2==3.1.6
 Pympler==1.1
 attrs==25.4.0
@@ -20,7 +20,7 @@ httpx==0.28.1
 icdiff==2.0.7
 icecream==2.1.8
 ipdb==0.13.13
-ipython==9.7.0
+ipython==9.8.0
 isort==7.0.0
 line-profiler==5.0.0
 memory-profiler==0.61.0
@@ -39,9 +39,9 @@ pycodestyle==2.14.0
 pydocstyle==6.3.0
 pyflakes==3.4.0
 pyinstrument==5.1.1
-python-configuration==0.12.1
 pymdown-extensions==10.17.2
 pypistats==1.11.0
+python-configuration==0.12.1
 pyupgrade==3.21.2
 railroad-diagrams==3.0.1
 # refurb==1.4.0
