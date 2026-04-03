@@ -4,7 +4,6 @@ Pympler==1.1
 attrs==25.4.0
 bandit==1.9.3
 black==26.1.0
-bumper==0.1.13
 cattrs==25.3.0
 cogapp==3.6.0
 cyclonedx-bom==7.2.1
@@ -33,6 +32,7 @@ pip-requirements-parser==32.0.1
 pip-tools==7.5.2
 pipdeptree==2.30.0
 # prospector==1.8.1
+pur==7.3.3
 py-cpuinfo==9.0.0
 # py-sbom-components==0.2.1
 pycodestyle==2.14.0
