@@ -27,6 +27,7 @@ mypy==1.20.0
 objgraph==3.6.2
 packaging==26.0
 pdoc==16.0.0
+pip-audit==2.10.0
 pip-licenses==5.5.5
 pip-requirements-parser==32.0.1
 pip-tools==7.5.3
@@ -46,7 +47,7 @@ pyupgrade==3.21.2
 railroad-diagrams==3.0.1
 # refurb==1.4.0
 ruff==0.15.9
-scalene==2.2.1
+# scalene==2.2.1
 setuptools==82.0.1
 setuptools-scm==10.0.5
 # sqlfluff==3.5.0
