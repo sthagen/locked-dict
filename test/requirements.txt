@@ -1,43 +1,45 @@
-Faker==40.12.0
+# Faker==40.12.0
+Jinja2==3.1.6
 coverage==7.13.5
-dirty-equals==0.11
+diff-cover==10.2.0
+# dirty-equals==0.11
 hypothesis==6.151.10
-hypothesis-jsonschema==0.23.1
-hypothesis-networkx==0.3.0
-nox==2026.2.9
-pygments==2.20.0
-pyperf==2.10.0
+# hypothesis-jsonschema==0.23.1
+# hypothesis-networkx==0.3.0
+# nox==2026.2.9
+# pygments==2.20.0
+# pyperf==2.10.0
 pytest==9.0.2
-pytest-asyncio==1.3.0
+# pytest-asyncio==1.3.0
 # pytest-cases==3.8.2
-pytest-check==2.8.0
+# pytest-check==2.8.0
 # pytest-check-links==0.10.1
 # pytest-checkdocs==2.13.0
-pytest_codeblocks==0.17.0
+# pytest_codeblocks==0.17.0
 pytest-cov==7.1.0
-pytest-flake8==1.3.0
-pytest-harvest==1.10.5
-pytest-html==4.2.0
-pytest-mock==3.15.1
+# pytest-flake8==1.3.0
+# pytest-harvest==1.10.5
+# pytest-html==4.2.0
+# pytest-mock==3.15.1
 # pytest-profiling==1.7.0
-pytest-pydocstyle==2.4.0
-pytest-race==0.2.0
-pytest-reporter==0.5.3
-pytest-shell==0.3.2
-pytest-sherlock==0.3.4
-pytest-shutil==1.8.1
-pytest-snapshot==0.9.0
-pytest-speed==0.3.5
-pytest-steps==1.8.0
-pytest-subprocess==1.5.4
-pytest-subtests==0.15.0
-pytest-sugar==1.1.1
-pytest-tap==3.5
-pytest-threadleak==0.5.0
-pytest-timeout==2.4.0
-pytest-todo==0.2.1
-pytest-unordered==0.7.0
-pytest-xdist==3.8.0
-requests==2.33.1
-robotframework==7.4.2
-ward==0.68.0b0
+# pytest-pydocstyle==2.4.0
+# pytest-race==0.2.0
+# pytest-reporter==0.5.3
+# pytest-shell==0.3.2
+# pytest-sherlock==0.3.4
+# pytest-shutil==1.8.1
+# pytest-snapshot==0.9.0
+# pytest-speed==0.3.5
+# pytest-steps==1.8.0
+# pytest-subprocess==1.5.4
+# pytest-subtests==0.15.0
+# pytest-sugar==1.1.1
+# pytest-tap==3.5
+# pytest-threadleak==0.5.0
+# pytest-timeout==2.4.0
+# pytest-todo==0.2.1
+# pytest-unordered==0.7.0
+# pytest-xdist==3.8.0
+# requests==2.33.1
+# robotframework==7.4.2
+# ward==0.68.0b0
