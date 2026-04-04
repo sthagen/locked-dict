@@ -1,13 +1,13 @@
 GitPython==3.1.46
 Jinja2==3.1.6
 Pympler==1.1
-attrs==25.4.0
-bandit==1.9.3
+attrs==26.1.0
+bandit==1.9.4
 black==26.3.1
-cattrs==25.3.0
+cattrs==26.1.0
 cogapp==3.6.0
-cyclonedx-bom==7.2.1
-dulwich==1.0.0
+cyclonedx-bom==7.3.0
+dulwich==1.1.0
 everett==3.5.0
 # filprofiler==2023.3.1
 first==2.0.2
@@ -16,21 +16,21 @@ flake8-quotes==3.4.0
 graphviz==0.21
 # guppy3==3.1.5
 httpx==0.28.1
-icdiff==2.0.7
-icecream==2.1.8
+icdiff==2.0.10
+icecream==2.2.0
 ipdb==0.13.13
 # ipython==9.8.0
-isort==7.0.0
-line-profiler==5.0.0
+isort==8.0.1
+line-profiler==5.0.2
 memory-profiler==0.61.0
-mypy==1.19.0
+mypy==1.20.0
 objgraph==3.6.2
-packaging==25.0
+packaging==26.0
 pdoc==16.0.0
-pip-licenses==5.5.0
+pip-licenses==5.5.5
 pip-requirements-parser==32.0.1
-pip-tools==7.5.2
-pipdeptree==2.30.0
+pip-tools==7.5.3
+pipdeptree==2.34.0
 # prospector==1.8.1
 pur==7.3.3
 py-cpuinfo==9.0.0
@@ -38,26 +38,26 @@ py-cpuinfo==9.0.0
 pycodestyle==2.14.0
 pydocstyle==6.3.0
 pyflakes==3.4.0
-pyinstrument==5.1.1
-pymdown-extensions==10.17.2
-pypistats==1.11.0
+pyinstrument==5.1.2
+pymdown-extensions==10.21.2
+pypistats==1.13.0
 python-configuration==0.12.1
 pyupgrade==3.21.2
 railroad-diagrams==3.0.1
 # refurb==1.4.0
-ruff==0.14.7
-scalene==1.5.55
-setuptools==80.9.0
-setuptools-scm==9.2.2
+ruff==0.15.9
+scalene==2.2.1
+setuptools==82.0.1
+setuptools-scm==10.0.5
 # sqlfluff==3.5.0
-stamina==25.1.0
+stamina==25.2.0
 structlog==25.5.0
 twine==6.2.0
-types-Markdown==3.10.0.20251106
+types-Markdown==3.10.2.20260211
 types-PyYAML==6.0.12.20250915
 types-first==2.0.5.20240806
-types-jmespath==1.0.2.20250809
-types-requests==2.32.4.20250913
-types-setuptools==80.9.0.20250822
+types-jmespath==1.1.0.20260124
+types-requests==2.33.0.20260402
+types-setuptools==82.0.0.20260402
 types-toml==0.10.8.20240310
-validate-pyproject==0.24.1
+validate-pyproject==0.25

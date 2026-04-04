@@ -1,20 +1,20 @@
-Faker==40.1.2
-coverage==7.13.2
+Faker==40.12.0
+coverage==7.13.5
 dirty-equals==0.11
-hypothesis==6.151.4
+hypothesis==6.151.10
 hypothesis-jsonschema==0.23.1
 hypothesis-networkx==0.3.0
-nox==2025.11.12
+nox==2026.2.9
 pygments==2.20.0
-pyperf==2.9.0
+pyperf==2.10.0
 pytest==9.0.2
 pytest-asyncio==1.3.0
 # pytest-cases==3.8.2
-pytest-check==2.6.2
+pytest-check==2.8.0
 # pytest-check-links==0.10.1
 # pytest-checkdocs==2.13.0
 pytest_codeblocks==0.17.0
-pytest-cov==7.0.0
+pytest-cov==7.1.0
 pytest-flake8==1.3.0
 pytest-harvest==1.10.5
 pytest-html==4.2.0
@@ -29,7 +29,7 @@ pytest-shutil==1.8.1
 pytest-snapshot==0.9.0
 pytest-speed==0.3.5
 pytest-steps==1.8.0
-pytest-subprocess==1.5.3
+pytest-subprocess==1.5.4
 pytest-subtests==0.15.0
 pytest-sugar==1.1.1
 pytest-tap==3.5
@@ -38,6 +38,6 @@ pytest-timeout==2.4.0
 pytest-todo==0.2.1
 pytest-unordered==0.7.0
 pytest-xdist==3.8.0
-requests==2.33.0
-robotframework==7.4.1
+requests==2.33.1
+robotframework==7.4.2
 ward==0.68.0b0
